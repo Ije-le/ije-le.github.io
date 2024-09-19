@@ -1,23 +1,25 @@
 
-//
+/*styles for my resume*/
 body {
     font-family: "Open Sans", arial, sans-serif;
     font-size: 1em;
     color: #444;
     font-weight: 400;
 }
-
+/*banner name at top*/
 h1 {
     font-size:3em;
     text-transform:uppercase;
     text-align:center;
     color:#33485e;
 }
+/*title*/
 strong {
     text-transform:uppercase;
     color:#33485e;
     font-size:1.5em;
 }
+/*resume sections*/
 h2 {
     text-transform:uppercase;
     font-size:1.5em;
@@ -25,6 +27,7 @@ h2 {
     background-color: #33485e;
     font-weight:400;
 }
+/* */
 h3 {
     font-size:1.5em;
     font-weight: 600;
