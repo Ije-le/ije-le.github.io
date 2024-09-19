@@ -27,20 +27,23 @@ h2 {
     background-color: #33485e;
     font-weight:400;
 }
-/* */
+/*previous roles*/
 h3 {
     font-size:1.5em;
     font-weight: 600;
 }
+/*previous workplace*/
 h4 {
     font-size: 1.5em;
     font-weight: 400;
 }
+/*duration of previous work*/
 h5 {
     font-weight: 400;
     font-size: 1em;
     font-style: italic;
 }
+/*details of contact information, skills and education*/
 li{
     font-size: 1em;
 }
