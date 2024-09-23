@@ -6,6 +6,12 @@ body {
     color: #444;
     font-weight: 400;
 }
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
 /*banner name at top*/
 #name {
     font-size:3em;
