@@ -12,19 +12,20 @@
     text-align: center;
 }
 h1 {
-    font-family:"Special Elite";
+    font-family:"Special Elite", arial, sans-serif;
 }
 h2 {
-    font-family: "Special Elite";
+    font-family: "Special Elite", arial, sans-serif;
 }
 h3 {
-    font-family: "Special Elite";
+    font-family: "Special Elite", arial, sans-serif;
 }
 .navbar-brand {
-    font-family: "Special Elite";
+    font-family: "Special Elite", arial, sans-serif;
 }
 .btn {
-    font-family: "Special Elite";
+    font-family: "Special Elite", arial, sans-serif;
+    margin: 20px;
 }
 .row {
     padding-bottom: 50px;
