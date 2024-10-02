@@ -1,6 +1,9 @@
 .col-md-6 {
     text-align: center;
+    margin: 0 auto;
 }
+
+
 
 .bi {
     font-size: 3em;
@@ -23,10 +26,12 @@ h3 {
 .btn {
     font-family: "Special Elite";
 }
+.row {
+    padding-bottom: 50px;
+}
+
 @media only screen and (max-width: 500px) {
-    .row{
-        padding-bottom: 50px;
-    }
+    
     h2 {
         padding-top: 50px;
     }
