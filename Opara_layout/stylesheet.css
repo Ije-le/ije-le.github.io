@@ -27,6 +27,9 @@ h4{font-family: "Georgia", sans-serif;
 .container {
         text-align: center;
 }
+.image {
+    width: 400px;
+}
 blockquote {
     width: 450px;
     float: left;
