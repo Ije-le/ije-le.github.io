@@ -27,9 +27,7 @@ h4{font-family: "Georgia", sans-serif;
 .container {
         text-align: center;
 }
-.image {
-    width: 900px;
-}
+
 blockquote {
     width: 450px;
     float: left;
@@ -43,4 +41,8 @@ blockquote {
     text-align: center;
     color: red;
     background-color:bisque;
+}
+figcaption {
+    font-style: italic;
+    font-size: smaller;
 }
