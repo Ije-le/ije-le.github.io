@@ -17,7 +17,8 @@ h1 {font-family: "Helvetica", sans-serif;
         font-family: "Georgia", serif;
         font-size: 13px;
     }
-h2{font-family: "Helvetica", sans-serif;
+h4{font-family: "Georgia", sans-serif;
+    font-weight: 800;
 }
 
 .links {
@@ -29,12 +30,13 @@ h2{font-family: "Helvetica", sans-serif;
 blockquote {
     width: 450px;
     float: left;
-    border-right: 4px black solid;
-    border-top: 1px black solid;
-    margin: 20px;
+    border-right: 4px grey solid;
+    border-top: 1px grey solid;
+    margin: 25px;
     padding: 10px;
-    font-size: 150%;
+    font-size: 1.25em;
     font-style: italic;
+    font-family:"Gelasio", sans-serif;
     text-align: center;
     color: red;
     background-color:bisque;
