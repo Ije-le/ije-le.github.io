@@ -4,6 +4,7 @@
 }
 h1 {font-family: "Helvetica", sans-serif;
     font-size: 50px;
+    font-weight: 700;
 }
 
 #byline {
@@ -11,6 +12,8 @@ h1 {font-family: "Helvetica", sans-serif;
     font-size: 14px;
     font-style: italic;
     padding-bottom: 10px;
+    Margin-top: 30px;
+    margin-bottom: 30px;
     }
 
     p{
@@ -35,7 +38,7 @@ blockquote {
     border-top: 1px grey solid;
     margin: 25px;
     padding: 10px;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-style: italic;
     font-family:"Gelasio", sans-serif;
     text-align: center;
@@ -45,4 +48,6 @@ blockquote {
 figcaption {
     font-style: italic;
     font-size: smaller;
+    font-family:"Gelasio", sans-serif;
+    margin-bottom: 20px;
 }
