@@ -1,0 +1,86 @@
+Jour652: Midterm
+Part 1: Q&A
+
+Directions:
+
+1.  Use a text editor (like ATOM) to complete this assignment.
+
+2. This assignment is open book.
+
+3.  Answer every question.
+
+4.  If you don't understand what I'm asking for on a question, please ask me.
+
+5. When you are done, please save your document as “your-name-midterm-pt1.txt” and submit on ELMS.  Also, let me know you have completed the first portion of your midterm.
+
+****
+
+Questions
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+<a href="https://www.google.com/" target="_blank">Google</a> is the best search engine in the world.
+
+
+
+2.  Describe the purpose of a DIV tag.
+A div tag is a container. It is used to lump elements together for easy, collective styling.
+
+
+
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+    <!DOCTYPE html>
+        <html lang="eng">
+            <head>
+                <title></title>
+            </head>
+                <body>
+                </body>
+
+        </html>
+
+
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+        I'd put the link to a stylesheet in the head section of my html page.
+
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+        I'd include text, images or div tags in the body section of my html page.
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+        <div class="graphicbox"></div>
+        <div id="name"></div>
+
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+        <div id="apples" class="fruit"></div>
+
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+        .fruit {
+            color: #000000;
+        }
+
+
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+        To include an image we use the <img> tag.
+
+
+10.  Why do we use media queries?
+        We use media queries to build responsive pages for different screen sizes.
+
+11. What is the main difference between a serif and a sans-serif font?
+        Serif fonts are curved around the edges. They are more stylish or traditional. Sans-serif fonts are less stylish, have no curves around the edges and are more modern.
+
+
+
+12. Which of the following is a hexadecimal code?
+#FFCC33
+123,543,242
+101010101
+-213
+
+        #FFCC33 is a hexadecimal code.
