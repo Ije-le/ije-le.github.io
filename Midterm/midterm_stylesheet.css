@@ -1,3 +1,4 @@
+/*Lifestyle Mag! stylesheet*/
 #content {
     margin: 0 auto;
     width: 900px;
@@ -10,16 +11,19 @@ h1 {
     font-size: 2.5em;
     font-weight: 500;
     font-style: italic;
+    margin-bottom: 20px;
 }
 h2 {
     text-align: center;
     font-family:"Georgia", serif;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 .lead {
     font-size: 1em;
     font-style: italic;
     font-weight: 400;
+    text-align: center;
 }
 p{
     font-family: "Helvetica", Arial, sans-serif;
@@ -27,4 +31,55 @@ p{
 }
 .image{
     margin: 0 auto;
+}
+.lead-photo {
+    margin: 0 auto;
+}
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+
+}
+blockquote {
+    width: 750px;
+    float: left;
+    border-right: 4px grey solid;
+    border-top: 1px grey solid;
+    margin: 25px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family:"Gelasio", sans-serif;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+}
+.row {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+h3 {
+    font-style: italic;
+    font-weight: 300;
+    font-family:"Georgia", serif;
+
+}
+iframe {
+    margin-bottom: 20px;
+}
+.notes {
+    font-family:"Gelasio", Arial;
+    font-style: italic;
+    font-size: 16px;
+}
+.last-paragraph {
+    font-family:"Gelasio", Arial;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 900;
+}
+footer {
+    text-align: center;
 }
