@@ -1,9 +1,85 @@
 .lead_image {
     width: 100%;
     position: relative;
-    z-index: 1;
 }
 .profile_photo {
     position: absolute;
+    width: 300px;
     z-index: 2;
+    top: 150px;
+    left: 50px;
+}
+body {
+    position: relative;
+}
+.about {
+    position: relative;
+    left: 300px;
+    top: -40px;
+    font-size: 2em;
+    font-family: "Georgia", sans-serif;
+    color: grey;
+}
+.info {
+    color: grey;
+    font-size: 0.7em;
+    font-family: "Georgia", sans-serif;
+}
+.col-md-4 {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top:-50px;
+    left: 100px;
+    color: grey;
+    font-family: "Georgia", sans-serif;
+}
+.col-md-2 {
+    text-align: center;
+    position: relative;
+    left: 200px;
+    font-family: "Georgia", sans-serif;
+    color: grey;
+    position: relative;
+    top:-50px;
+}
+.col-md-3 {
+    text-align: center;
+    position: relative;
+    
+    font-family: "Georgia", sans-serif;
+    color: grey;
+    position: relative;
+    top:-50px;
+}
+.col-md-6 {
+    text-align: center;
+    position: relative;
+
+    font-family: "Georgia", sans-serif;
+    color: grey;
+    position: relative;
+    top:50px;
+}
+.content {
+    margin: 0 auto;
+    padding: 50px;
+}
+.bi {
+    color: black;
+}
+#skills ,
+#education ,
+#experience {
+    border:1px black solid;
+    background-color: #E2FEFE;
+}
+#skills ,
+#education {
+    position: relative;
+    top:400px
+}
+#experience {
+    position: relative;
+    top: -50px;
 }
