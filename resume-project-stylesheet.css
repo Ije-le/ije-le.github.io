@@ -1,3 +1,10 @@
 .lead_image {
     width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.profile_photo {
+    position: relative;
+    z-index: 3;
+    top: 50px;
 }
