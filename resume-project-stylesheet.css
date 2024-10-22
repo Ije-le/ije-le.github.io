@@ -31,7 +31,6 @@ body {
     position: relative;
     top:-50px;
     left: 100px;
-    color: grey;
     font-family: "Georgia", sans-serif;
 }
 .col-md-2 {
@@ -39,7 +38,6 @@ body {
     position: relative;
     left: 200px;
     font-family: "Georgia", sans-serif;
-    color: grey;
     position: relative;
     top:-50px;
 }
@@ -81,5 +79,5 @@ body {
 }
 #experience {
     position: relative;
-    top: -50px;
+    top: -55px;
 }
