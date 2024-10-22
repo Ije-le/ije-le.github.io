@@ -1,4 +1,4 @@
-.lead_image {
+.topper {
     width: 100%;
     position: relative;
 }
@@ -72,12 +72,15 @@ body {
     border:1px black solid;
     background-color: #E2FEFE;
 }
-#skills ,
+#skills {
+    position: relative;
+    top:275px   
+}
 #education {
     position: relative;
-    top:400px
+    top:325px
 }
 #experience {
     position: relative;
-    top: -55px;
+    top:-70px;
 }
