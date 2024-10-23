@@ -1,6 +1,5 @@
 .topper {
     width: 100%;
-    position: relative;
 }
 .profile_photo {
     position: absolute;
@@ -10,7 +9,7 @@
     left: 50px;
 }
 body {
-    position: relative;
+   position: relative;
 }
 .about {
     position: relative;
@@ -37,14 +36,11 @@ body {
     text-align: center;
     position: relative;
     left: 200px;
-    font-family: "Georgia", sans-serif;
-    position: relative;
     top:-50px;
+    font-family: "Georgia", sans-serif;    
 }
 .col-md-3 {
     text-align: center;
-    position: relative;
-    
     font-family: "Georgia", sans-serif;
     color: grey;
     position: relative;
@@ -56,7 +52,6 @@ body {
 
     font-family: "Georgia", sans-serif;
     color: grey;
-    position: relative;
     top:50px;
 }
 .content {
