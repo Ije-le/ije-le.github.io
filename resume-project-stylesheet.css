@@ -8,15 +8,12 @@
     top: 150px;
     left: 50px;
 }
-body {
-   position: relative;
-}
 .about {
     position: relative;
     left: 300px;
     top: -40px;
     font-size: 2em;
-    font-family: "Georgia", sans-serif;
+    font-family: "Gelasio", Georgia, sans-serif;
     color: grey;
 }
 .info {
@@ -73,9 +70,22 @@ body {
 }
 #education {
     position: relative;
-    top:325px
+    top:300px
 }
 #experience {
     position: relative;
     top:-70px;
+}
+@media only screen and (max-width: 500px) {
+    
+    .about {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .container {
+        background-color: #eed9c4;   
+    }
+    .col-md-2 , .col-md-3 , .col-md-4 , .col-md-6 {
+        position: static;
+    }
 }
