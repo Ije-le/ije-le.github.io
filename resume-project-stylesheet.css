@@ -82,7 +82,9 @@
         font-size: 1.5em;
         text-align: center;
     }
-    .container {
+    #skills ,
+#education ,
+#experience {
         background-color: #eed9c4;   
     }
     .col-md-2 , .col-md-3 , .col-md-4 , .col-md-6 {
