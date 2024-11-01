@@ -89,4 +89,7 @@
         position: static;
         margin: 0 auto;
     }
+    .profile_photo {
+        display: none;
+    }
 }
