@@ -81,7 +81,13 @@
     .about {
         font-size: 1.5em;
         text-align: center;
-        /*padding-left: 0%;*/
+        position: static;
+        top:auto;
+        bottom:auto;
+        left:auto;
+        right:auto;
+        margin: 0;
+        padding: 0;
     }
     #skills ,
 #education ,
