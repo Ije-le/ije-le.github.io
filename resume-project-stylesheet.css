@@ -81,7 +81,7 @@
     .about {
         font-size: 1.5em;
         text-align: center;
-        padding-left: 0%;
+        /*padding-left: 0%;*/
     }
     #skills ,
 #education ,
@@ -90,7 +90,12 @@
     }
     .col-md-2 , .col-md-3 , .col-md-4 , .col-md-6 {
         position: static;
-        margin: 0 auto;
+        top:auto;
+        bottom:auto;
+        left:auto;
+        right:auto;
+        margin: 0;
+        padding: 0;
     }
     .profile_photo {
         display: none;
