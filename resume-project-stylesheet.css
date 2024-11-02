@@ -9,9 +9,6 @@
     left: 50px;
 }
 .about {
-    /*position: relative;
-    left: 300px;
-    top: -40px;*/
     font-size: 2em;
     font-family: "Gelasio", Georgia, sans-serif;
     color: grey;
@@ -42,16 +39,16 @@
     font-family: "Georgia", sans-serif;
     color: grey;
     padding-top: 20%;
-    /*position: relative;
-    top:-50px;*/
 }
+.col-md-3:nth-of-type(2) {
+    padding-top: 18.5%;
+}
+
 .col-md-6 {
     text-align: center;
-    /*position: relative;*/
-
     font-family: "Georgia", sans-serif;
     color: grey;
-    /*top:50px;*/
+    
 }
 .content {
     margin: 0 auto;
@@ -66,29 +63,12 @@
     border:1px black solid;
     background-color: #E2FEFE;
 }
-#skills {
 
-    /*position: relative;
-    top:275px */  
-}
-#education {
-   /* position: relative;
-    top:300px*/
-}
-#experience {
-    /*position: relative;
-    top:-70px;*/
-}
 @media only screen and (max-width: 500px) {
     
     .about {
         font-size: 1.5em;
         text-align: center;
-        /*position: static;
-        top:auto;
-        bottom:auto;
-        left:auto;
-        right:auto;*/
         margin: 0;
         padding: 0;
     }
@@ -103,5 +83,5 @@
     }
     .profile_photo {
         display: none;
-    }
+    }   
 }
