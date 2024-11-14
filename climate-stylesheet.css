@@ -1,0 +1,84 @@
+.headline {
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+.byline {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+p {
+    font-family: "Georgia", serif;
+    line-height: 180%;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.image {
+    width: 900px;
+    margin: 0 auto;
+}
+figcaption {
+    padding: 20px;
+    padding-top: 0;
+    font-family: "Georgia", serif;
+    font-style: italic;
+}
+.text-muted {
+    text-align: center;
+    color: white;
+}
+/* top hat*/
+.nav-logo {
+color: #fff;
+margin: 0 auto;
+font-weight: 700;
+text-transform: uppercase;
+}
+.red {
+    color: #f23030;
+}
+/*Splash area*/
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.hero-image {
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    background-color: #000;
+    opacity: .7;
+}
+.hero-head {
+    font-family: "Playfair Display", serif;
+    font-size: 6em;
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.hero-sub {
+    font-family: "Montserrat", sans-serif;
+    font-size: .25em;
+}
+caption {
+    margin: 0 auto;
+}
+
+
+@media (max-width: 700px) {
+p {padding-left: 20px;
+    padding-right: 10px;
+}
+.hero-head {
+    font-size: 1.5em;
+}
+}
