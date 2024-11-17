@@ -15,18 +15,19 @@ p {
     line-height: 180%;
 }
 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: 600;
-}
-.image {
-    width: 900px;
-    margin: 0 auto;
+    text-align: center;
 }
 figcaption {
     padding: 20px;
     padding-top: 0;
     font-family: "Georgia", serif;
     font-style: italic;
+}
+
+.container {
+    max-width: 900px;
 }
 .text-muted {
     text-align: center;
@@ -50,6 +51,7 @@ text-transform: uppercase;
 }
 .hero-image {
     width: 100%;
+    position: sticky;
 }
 .overlay {
     position: absolute;
@@ -71,6 +73,30 @@ text-transform: uppercase;
 }
 caption {
     margin: 0 auto;
+}
+/*Quote*/
+.quote {
+    color: #ffa500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: italic;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-right: 4px solid grey;
+    border-top: 1px solid grey;
+    background-color: #fff;
+    max-width: 700px;
+
+}
+/*Quote atribution*/
+.quote_attribution {
+    color: #000;
+    font-weight: 200;
+}
+.iframe {
+    margin: 30px;
 }
 
 
