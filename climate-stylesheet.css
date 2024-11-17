@@ -18,6 +18,8 @@ h2 {
     font-family: "Playfair Display", serif;
     font-weight: 600;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 figcaption {
     padding: 20px;
@@ -51,7 +53,7 @@ text-transform: uppercase;
 }
 .hero-image {
     width: 100%;
-    position: sticky;
+    position: relative;
 }
 .overlay {
     position: absolute;
@@ -74,8 +76,21 @@ text-transform: uppercase;
 caption {
     margin: 0 auto;
 }
+#image {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#photo {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /*Quote*/
 .quote {
+
     color: #ffa500;
     font-family: "Montserrat", sans-serif;
     font-size: 2em;
