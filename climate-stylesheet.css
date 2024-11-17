@@ -21,19 +21,15 @@ h2 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-figcaption {
-    padding: 20px;
-    padding-top: 0;
-    font-family: "Georgia", serif;
-    font-style: italic;
-}
 
 .container {
     max-width: 900px;
 }
-.text-muted {
-    text-align: center;
+
+#text-muted {
     color: white;
+    margin: 0 auto;
+    text-align: center; 
 }
 /* top hat*/
 .nav-logo {
@@ -73,19 +69,25 @@ text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-size: .25em;
 }
+/*images*/
 caption {
     margin: 0 auto;
 }
 #image {
     width: 100%;
     position: relative;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 #photo {
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 30px;;
+}
+figcaption {
+    padding: 30px;
+    padding-top: 0;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
 }
 
 /*Quote*/
