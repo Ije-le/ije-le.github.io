@@ -37,60 +37,23 @@ text-transform: uppercase;
     color: #f23030;
 }
 /*Splash area*/
+
 .hero-container {
-    /*position: relative;
-    text-align: center;
-    color: #fff;*/
     position: relative;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 1;
+    text-align: center;
+    color: #fff;
 }
 
 .hero-image {
-   /* width: 100%;*/
    width: 100%;
-   height: 100%;
-   position: absolute;
-   top: 0;
-   z-index: -1;
 }
 .overlay {
-        /*position: absolute;
+    position: absolute;
     top: 20%;
     width: 100%;
     background-color: #000;
-    opacity: .7;*/
-    position: relative;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
     opacity: .7;
-    height: 30%;
-    z-index: -1;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-.sub {
-    position: relative;
-    z-index: 2;
-}
-.sub-1 , .sub-2 , .sub-3 {
-    color: #fff;
-    background-color: #f23030;
-    border: 1px solid #f23030;
-    position: relative;
-    overflow-y: auto;
-    width: 30%;
-    font-style: italic;
-    font-size: 1.5em;
-    margin-top: 50px;
-    margin-bottom: 250px;
-    text-align: center;
-    }
-
 .hero-head {
     font-family: "Playfair Display", serif;
     font-size: 6em;
@@ -102,32 +65,17 @@ text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-size: .25em;
 }
-/*images*/
-caption {
-    margin: 0 auto;
-}
-#image {
-    width: 100%;
-    position: relative;
-    margin-top: 30px;
-}
-#photo {
-    width: 100%;
-    margin-top: 30px;;
-}
 .caption {
     text-align: center;
-    font-style: italic;
     font-weight: 400;
+    font-style: italic;
 }
 figcaption {
-    padding: 30px;
-    padding-top: 0;
-    font-style: italic;
-    font-weight: 400;
     text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
 }
-
 /*Quote*/
 .quote {
 
