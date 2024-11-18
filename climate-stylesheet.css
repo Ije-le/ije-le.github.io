@@ -11,7 +11,7 @@
     text-align: center;
 }
 p {
-    font-family: "Georgia", serif;
+    font-family: "Playfair Display", serif;
     line-height: 180%;
 }
 h2 {
@@ -26,11 +26,6 @@ h2 {
     max-width: 900px;
 }
 
-#text-muted {
-    color: white;
-    margin: 0 auto;
-    text-align: center; 
-}
 /* top hat*/
 .nav-logo {
 color: #fff;
@@ -43,21 +38,59 @@ text-transform: uppercase;
 }
 /*Splash area*/
 .hero-container {
-    position: relative;
+    /*position: relative;
     text-align: center;
-    color: #fff;
-}
-.hero-image {
-    width: 100%;
+    color: #fff;*/
     position: relative;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hero-image {
+   /* width: 100%;*/
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   z-index: -1;
 }
 .overlay {
-    position: absolute;
+        /*position: absolute;
     top: 20%;
     width: 100%;
     background-color: #000;
+    opacity: .7;*/
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
     opacity: .7;
+    height: 30%;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+.sub {
+    position: relative;
+    z-index: 2;
+}
+.sub-1 , .sub-2 , .sub-3 {
+    color: #fff;
+    background-color: #f23030;
+    border: 1px solid #f23030;
+    position: relative;
+    overflow-y: auto;
+    width: 30%;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    text-align: center;
+    }
+
 .hero-head {
     font-family: "Playfair Display", serif;
     font-size: 6em;
@@ -81,6 +114,11 @@ caption {
 #photo {
     width: 100%;
     margin-top: 30px;;
+}
+.caption {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
 }
 figcaption {
     padding: 30px;
@@ -112,10 +150,45 @@ figcaption {
     color: #000;
     font-weight: 200;
 }
+/*graphics*/
 .iframe {
     margin: 30px;
 }
+.sidebar_container {
+    position: relative;
+}
+.col-lg-8 {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+.row {
+    display: flex;
+    padding-left: 35px;
+}
+.col-lg-4 {
+    position: relative;
+    overflow-y: auto;
+}
+.points {
+    border-top: 1px solid #000;
+    border-right: 3px solid #f23030;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    font-family: "Gelasio", serif;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    width: 60%;
 
+}
+#points {
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    width: 50%;
+}
 
 @media (max-width: 700px) {
 p {padding-left: 20px;
