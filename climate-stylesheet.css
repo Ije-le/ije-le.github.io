@@ -54,6 +54,7 @@ text-transform: uppercase;
     width: 60%;
     background-color: #000;
     opacity: .7;
+    
 }
 .hero-head {
     font-family: "Playfair Display", serif;
@@ -103,7 +104,7 @@ figcaption {
 .iframe {
     margin: 30px;
 }
-.sidebar_container {
+.side_container {
     position: relative;
 }
 .col-lg-8 {
