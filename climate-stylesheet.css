@@ -93,7 +93,6 @@ figcaption {
     border-top: 1px solid grey;
     background-color: #fff;
     max-width: 700px;
-
 }
 /*Quote atribution*/
 .quote_attribution {
@@ -130,7 +129,6 @@ figcaption {
     margin-top: 50px;
     margin-bottom: 250px;
     width: 60%;
-
 }
 .sidebar-container {
     border: 1px solid #000;
@@ -139,7 +137,6 @@ figcaption {
     background-color: #ffa500;
    
     z-index: 2;
-
 }
 .source {
     font-style: italic;
@@ -160,6 +157,15 @@ figcaption {
     margin-top: 50px;
     margin-bottom: 120px;
     width: 50%;
+}
+h4{
+    padding: 25px;
+}
+a:hover {
+    color: #f23030;
+}
+a:visited {
+    color: grey;
 }
 
 @media (max-width: 700px) {
