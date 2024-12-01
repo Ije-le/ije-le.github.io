@@ -7,7 +7,7 @@
 .byline {
     font-size: 1em;
     text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Georgia", serif;
     text-align: center;
 }
 p {
@@ -15,8 +15,9 @@ p {
     line-height: 180%;
 }
 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: 600;
+    text-align: center;
 }
 .image {
     width: 900px;
@@ -27,11 +28,37 @@ figcaption {
     padding-top: 0;
     font-family: "Georgia", serif;
     font-style: italic;
+    text-align: center;
 }
 .text-muted {
     text-align: center;
     color: #fff;
 }
-.head {
+.nav-head {
     color: #fff
+}
+.nav-logo{
+    margin: 0 auto;
+}
+.lead-photo {
+    width: 100%
+}
+.container{
+    width: 900px;;
+}
+.image1{
+    margin: 0 auto;
+    padding-left: 28px;
+    padding-top: 20px;
+}
+.image2{
+    width: 100%;
+    padding-top: 20px;
+}
+.quote {
+    color: green;
+    border-top: 1px black solid;
+}
+.quote_attribution {
+    
 }
