@@ -29,10 +29,6 @@ figcaption , .caption {
     font-style: italic;
     text-align: center;
 }
-.text-muted {
-    text-align: center;
-    color: #fff;
-}
 .nav-head {
     color: #fff
 }
@@ -51,8 +47,8 @@ figcaption , .caption {
 }
 .image1{
     margin: 0 auto;
-    padding-left: 30px;
-    padding-top: 20px;
+    /*padding-left: 30px;
+    padding-top: 20px;*/
 }
 .image2{
     width: 100%;
@@ -106,6 +102,15 @@ h4 {
     border-radius: 50%;
     width: 50%;
 }
-.col-lg-4 {
+.col-md-4 {
     margin-bottom: 30px;
 }
+.footer {
+    text-align: center;
+    color: #fff;
+}
+@media (max-width: 500px) {
+    p {padding-left: 20px;
+        padding-right: 20px;
+    }
+    }
