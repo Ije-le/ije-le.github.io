@@ -118,7 +118,7 @@ a:hover {
 a:visited {
     color: #808080;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     p {padding-left: 20px;
         padding-right: 20px;
     }
