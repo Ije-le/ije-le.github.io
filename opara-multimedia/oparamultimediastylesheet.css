@@ -43,7 +43,8 @@ figcaption , .caption {
 
 }
 .container{
-    width: 900px;;
+    width: 900px;
+    max-width: 1200;
 }
 .image1{
     margin: 0 auto;
@@ -120,5 +121,8 @@ a:visited {
 @media (max-width: 500px) {
     p {padding-left: 20px;
         padding-right: 20px;
+    }
+    .container {
+        width: 80%;
     }
     }
