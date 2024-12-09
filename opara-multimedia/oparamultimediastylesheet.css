@@ -41,7 +41,7 @@ figcaption , .caption {
 }
 .container{
     width: 900px;
-    max-width: 1200;
+    max-width: 1200px;
 }
 .image1{
     margin: 0 auto;
