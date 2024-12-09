@@ -43,12 +43,15 @@ figcaption , .caption {
     width: 900px;
     max-width: 1200px;
 }
-.image1 , .image3 {
+.image1 {
     margin: 0 auto;
 }
 .image2{
     width: 100%;
     padding-top: 20px;
+}
+.image3 {
+    margin: 0 auto;
 }
 .quote {
     color: #4bc036;
@@ -127,8 +130,11 @@ a:visited {
 .lead-photo {
     width: 100%;
 }
-.image1 , .image3 {
+.image1 {
     width: 100%;
+    max-width: 100%;
+}
+.image3 {width: 100%;
     max-width: 100%;
 }
 
