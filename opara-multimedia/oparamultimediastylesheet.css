@@ -129,10 +129,10 @@ a:visited {
 .lead-photo {
     width: 100%;
     height: auto;
-    object-fit: contain;
 }
 .image1 {
     width: 100%;
+    max-width: 100%;
 }
 
 }
