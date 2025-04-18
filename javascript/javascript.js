@@ -1,4 +1,3 @@
-
 var ctx = document.getElementById('myChart').getContext('2d');
       var myChart = new Chart(ctx, {
           type: 'scatter',
@@ -30,6 +29,60 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
+              }, { 
+                data: [
+                {x: 68.3, y: 5878},
+                ],
+                label: "Indonesia",
+                borderColor: "#a83299",
+                backgroundColor:"rgb(168, 50, 153,0.1)",
+                borderWidth:2,
+                
+              }, { 
+                data: [
+                {x: 71.9, y: 11461},
+                ],
+                label: "Brazil",
+                borderColor: "#f50511",
+                backgroundColor:"rgb(245, 5, 17,0.1)",
+                borderWidth:2,
+                
+              }, { 
+                data: [
+                {x: 65.4, y: 13173},
+                ],
+                label: "Russia",
+                borderColor: "#fa7575",
+                backgroundColor:"rgb(250, 117, 117,0.1)",
+                borderWidth:2,
+                
+              }, { 
+                data: [
+                {x: 62.6, y: 3366},
+                ],
+                label: "Pakistan",
+                borderColor: "#0a0a04",
+                backgroundColor:"rgb(10, 10, 4,0.1)",
+                borderWidth:2,
+                
+              }, { 
+                data: [
+                {x: 65.8, y: 1632},
+                ],
+                label: "Bangladesh",
+                borderColor: "#28e307",
+                backgroundColor:"rgb(40, 227, 7,0.1)",
+                borderWidth:2,
+                
+              }, { 
+                data: [
+                {x: 81.1, y: 32193},
+                ],
+                label: "Japan",
+                borderColor: "#825d49",
+                backgroundColor:"rgb(130, 93, 73,0.1)",
+                borderWidth:2,
+                
               }
             ]
           },
@@ -38,13 +91,13 @@ var ctx = document.getElementById('myChart').getContext('2d');
               y: {
                 title: {
                   display: true,
-                  text: 'Y axis title'
+                  text: 'GDP per Capita '
                 }
               },
               x: {
                   title: {
                       display: true,
-                      text: 'X axis title'
+                      text: 'Life Expectancy'
                   }
               }
             }
