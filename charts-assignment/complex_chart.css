@@ -1,0 +1,20 @@
+.chartContainer {
+    width:700px;
+    margin: 0 auto;
+}
+
+.source{
+    font-family: helvetica, sans-serif;
+    font-size: .80em;
+    margin-left:15px;
+    margin-top:10px;
+    font-style: italic;
+}
+
+.annotation {
+    font-family: helvetica, sans-serif;
+    font-size: .75em;
+    margin-left:15px;
+    margin-top:10px;
+    font-style: italic;
+}
