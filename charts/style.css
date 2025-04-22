@@ -1,0 +1,19 @@
+.chartContainer {
+    width:800px;
+    margin: 0 auto;
+}
+/*h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-weight: 400;
+}*/
+.source{
+    font-family: helvetica, sans-serif;
+    font-size: .75em;
+    margin-left:15px;
+    margin-top:10px;
+    font-style: italic;
+}
+
