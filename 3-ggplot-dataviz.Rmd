@@ -232,9 +232,9 @@ ggplot(spotify_data, aes(acousticness_., streams, color = key)) +
     theme_minimal() +
     scale_color_brewer(palette="Paired") +
     scale_y_continuous(labels = scales::label_number(scale = 1e-9, suffix = "B")) +
-    scale_size_continuous(labels = scales::label_number(scale = 1e-9, suffix = "B"))
+    scale_size_continuous(labels = scales::label_number(scale = 1e-9, suffix = "B")) +
    labs(title = "How were acoustic sounds streamed?", subtitle = "Examining the top Spotify songs of 2023", caption = "Source: Spotify via Kaggle \n by Ije Opara", x = "", y = "Streams", size = "streams", color = "Key")
-
+   
 ```
 
 ```{r}
@@ -246,7 +246,7 @@ ggplot(artist_annual_data, aes(x = released_year, y = artist.s._name_count)) +
   geom_line() +
   theme_minimal() +
   labs(
-    title = "Number of Artists with Releases Per Year",
+    title = "Number of Artists with Releases Per Year", subtitle = "The number of artists with releases drastically increased in 2021 and 2022",
     x = "Year",
     y = "Unique Artists"
   )
