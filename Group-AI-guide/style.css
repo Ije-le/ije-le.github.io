@@ -54,3 +54,8 @@ h3 {
     width: 900px;
     max-width: 1200px;
 }
+.image {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
