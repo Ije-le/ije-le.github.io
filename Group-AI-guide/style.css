@@ -1,0 +1,14 @@
+h1 {
+    font-family: 3em;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    text-align: center;
+}
+.lead-photo {
+    width: 100%;
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    object-fit: cover;
+}

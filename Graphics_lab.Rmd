@@ -14,8 +14,66 @@ library(scales)
 ```
 
 ```{r}
+
 baby_names_list <- babynames
+
+
+# Load necessary libraries
+library(tidyverse)
+library(babynames)
+
+baby_names_list <- babynames
+
+# Filter for the year 1994
+names_1994 <- baby_names_list %>%
+  filter(year == 1994)
+
+# Find the top 10 most popular names in 1994
+top_names_1994 <- names_1994 %>%
+  group_by(name) %>%
+  summarise(total_babies = sum(n), .groups = "drop") %>%
+  arrange(desc(total_babies)) %>%
+  head(10) %>%
+  mutate(name = fct_reorder(name, total_babies)) # Reorder names for plotting
+
+# Create bar chart showing top 10 names in 1994
+ggplot(top_names_1994, aes(x = name, y = total_babies)) +
+  geom_bar(stat = "identity", fill = "lightblue") +
+  labs(title = "Top 10 Baby Names in 1994", subtitle = "'Michael' was the most popular name in 1994",
+       x = "Name",
+       y = "Number of Babies") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+```{r}
+ggplot(subset(babynames, name == "Riley"), aes(x = year, y = n, color = sex)) +
+  geom_line() +
+  labs(title = "Riley's Popularity Over Time by Gender", subtitle = "'Riley' started becoming less popular name for male children in the 2000s",
+       x = "Year", y = "Number of Babies") +
+  scale_color_manual(values = c("F" = "blue", "M" = "green")) +
+  theme_minimal()
+```
+
+```{r}
+michael_daniel_90s <- babynames %>%
+  filter(name %in% c("Michael", "Daniel"),
+         year >= 1990, year <= 2000)%>%
+  group_by(year, name) %>%
+  summarize(total=sum(n), .groups = "drop")%>%
+  mutate(name =factor(name, levels = c("Michael","Daniel")))
+
+# Create grouped bar chart
+ggplot(michael_daniel_90s, aes(x = factor(year), y = total, fill = name)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = c("Michael" = "grey", "Daniel" = "pink"))+
+  labs(title = "Name Usage: Michael vs Daniel (1990–2000)", subtitle = "Michael was a much more popular name than Daniel between 1990 and 2000",
+       x = "Year",
+       y = "Number of Babies",
+       fill = "Name") +
+  theme_minimal()
+```
+
+
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
