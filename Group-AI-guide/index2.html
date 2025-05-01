@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>AI guide</title>
+        <meta name="description" content="Merrill College of Journalism, UMD">
+        <meta name="author" content="Group Project">
+        <!--Bootstrap, CSS and Javascript-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <!--My CSS Stylesheet-->
+        <link rel="stylesheet" href ="style.css" type="text/css">
+        <!--My Javascript-->
+        <script src="javascript.js"></script>
+
+    </head>    
+    <body>
+        <!-- Navbar start-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Insert name of other tasks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Other tasks</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Find More
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Insert name of other info</a></li>
+                        <li><a class="dropdown-item" href="#">Insert name of other tasks</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success" type="submit">Subscribe</button>
+                </form>
+                </div>
+            </div>
+            </nav>
+        <!--Navbar ends-->
+        <!--Featured Image-->
+                 <img src="https://ije-le.github.io/Group-AI-guide/Gemini_Generated_Image_2.jpeg" class="lead-image">
+        <!--Featured Image ends-->
+        <!--Open container-->  
+                <div class="container">
+                    <h1>Heading</h1>
+                        <p>Oftentimes investigative pieces, especially those that are historical or following a longer timeline, involve court cases.<br>Rules and regulations vary by state, but it’s fairly universal that obtaining court transcripts is an easier process than interviewing those involved. <strong>To have a tool that could take relevant quotes from a court transcript, or something similar, could be what brings a mundane story to life.</strong></p>
+                        <p><strong>Let’s walk through one way to accomplish this.</strong></p>
+                        <img src="">
+                        <p>To test this, I found an example court transcript through Bloomberg Law. This is a recent case, so if it were the basis of a story it may be possible to speak with involved parties– but for the purpose of this exercise let’s pretend that we are unable to. <strong>I used a court docket:</strong> L.W. et al v. Skrmetti et al, Docket No. 3:23-cv-00376 (M.D. Tenn. Apr 20, 2023).</p>
+                        <p><strong>Now, either sign in or create an ElevenLabs account.</strong> As mentioned in the section above, there is a free trial to use for testing purposes. If the tool proves itself useful, there is an option for paid subscription.</p>
+                        <div>
+                            <p>Let’s head to Studio.</p>
+                            <img src="">
+                        </div>
+                        <p><strong>We’re going to “start from scratch.” The back-and-forth of the transcript begins on page 4, so I copy and pasted about 2 pages worth of that into the text box.</strong></p>
+                        <p>I had some various cleanups to do before we could start, such as deleting page numbers and fixing where spacing was odd from copy and pasting. Though, if this was a large issue, say for example if I was pasting in the entire transcript, I would go to another LLM and have them do it for me.</p>
+                        <p>Now let’s head over to the right side of the screen, where we should see some voice options.</p>
+                        <p>Many are hidden behind a paywall, but there are free options that I will use for the purposes of this exercise. <strong>We will want to “Override Settings,” and will use this to make our voices sound more human later.</strong></p>
+                        <img src="">
+                        <p>In my example, and likely in your attempt as well if your transcript is like mine, the speaker names will be read out loud. Ignore this for now, we will remove them at the end. Until then, they serve us by keeping our speakers labelled.</p>
+                        <p><strong>Now, we find our voices.</strong> For Mr. Block, I chose “Bill.” Now, I select all of Mr. Block’s lines and apply Bill’s voice to them.</p>
+                        <img src="">
+                        <p>For The Court, I chose “Brian.” I did the same as before, selected all lines from the court and assigned Brian’s voice to them.</p>
+                        <p>For Mr. Mortana I chose “Callum.”</p>
+                        <p>And for Ms. Daniel I chose “Rachel.”</p>
+                        <img src="">
+                        <p><strong>After everyone is given a voice, we can move forward to stylistic choices!</strong> Here is when I go to the “Override Settings” and play around with aspects like “Speed,” “Stability” and “Similarity” as I find it to be most human-sounding and pleasing to the ear.</p>
+                        <p><strong>My advice? Make it faster.</strong> Humans talk quickly, especially lawyers. I also chose to lower the stability and lower the similarity to make it a bit less robotic.</p>
+                        <p><strong>Now, our final step: Remove speaker names from the transcript.</strong> Now that everyone has their own voice, we no longer need the text to tell who is who.You can manually delete the names from the transcript within ElevenLabs. At this point, speakers show as different colors as you hover over the text anyways.</p>
+                        <img src="">
+                        <p><strong>Time to finalize! Listen to what you have for any glaring errors. You may view my example linked here.</strong></p>
+
+
+                        <div class="text-center my-4">
+                            <a href="next-lesson.html" class="btn btn-primary btn-lg">Take Next Lesson</a>
+                        </div>
+                          
+                </div>
+        <!--Add footer-->
+            <footer class="footer mt-auto py-3 bg-dark">
+                <div class="footer">
+                    <span id="text-muted">www.aiguide.com</span>
+            </footer>
+    </body>
+</html>
