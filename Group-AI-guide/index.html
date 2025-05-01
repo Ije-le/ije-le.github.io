@@ -22,27 +22,26 @@
         <!-- Navbar start-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Insert name of other tasks</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Other tasks</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Other tasks</a>
                     </li>
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Find More
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Insert name of other info</a></li>
+                        <li><a class="dropdown-item" href="#">Insert name of other tasks</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                     </li>
                 </ul>
@@ -74,22 +73,26 @@
                         <p>Let us generate voice overs by converting text to speech using ElevenLabs</p>
                         <p>When a user opens ElevenLabs (via elevenlabs.io), there is an option to “Get Started for Free.” That would be a fine place to start this exercise.</p>
                         <p>Getting started gives you access to ElevenLabs’ homepage, where a panel on the left shows some of the features the LLM offers. For the sake of this exercise, we will use the text-to-speech function. This takes you to a chat interface where you can place whatever text you intend to convert to speech.</p>
-                        <p>[Insert image: ElevenLabs interface]</p>
+                        <img src="https://ije-le.github.io/Group-AI-guide/ElevenLabs-interface.png" class="image">
                         <p>For this exercise, we will be using an already published news report.</p>
                     <h3>Task:</h3>
-                        <p>Copy a published news story and paste on ElevenLabs. Then click on “Generate Speech” below.</p>
+                        <ul>
+                            <li>Copy a published news story and paste on ElevenLabs. Then click on “Generate Speech” below.</li>
+                        </ul>
                         <p>You can probably tell from the resulting audio that the tone of the LLM’s voice depends on the tone of the script.</p>
-                        <p>Listen to this speech generated through the steps above.</p>
+                        <p>Listen to this <a href="https://elevenlabs.io/app/share/vWCN3CGc3kV0TxW7cFYJ">speech</a> generated through the steps above.</p>
                         <p>Notice how the voice gets flatter and more robotic toward the end?</p>
                         <p>Regardless of how impressive they are, LLMs are not perfect. They do not always put their best foot forward. Your role is to find that best foot and bring it forward, which is why you should always look for ways to improve the first output from your AI tool through follow-up prompts.</p>
                         <p>In generating audio files, writing prompts are trickier than text. This is because the text being converted to speech is usually your only material. Somehow, you have to weave your prompt into how your script is structured. Other times, prompting can come in the form of other adjustments.</p>
                         <p>Take the robotic-sounding end of the audio file in this exercise for instance.</p>
                         <p>A quick way to fix this is to repeat this same process, while making adjustments to the Settings (found on the right side of the screen). Adjusting stability or increasing exaggerations under Settings, can affect the flow of the voice.</p>
-                        <p>[Insert image: Adjust settings]</p>
-                        <p>Listen to this audio generated from the same text in the first example.</p>
+                        <img src="https://ije-le.github.io/Adjust_settings.png" class="image">
+                        <p>Listen to this <a href="https://elevenlabs.io/app/share/YRMZsOKFDcuzKIg5nh1m">audio</a> generated from the same text in the first example.</p>
                         <p>The difference in the flow of the voice is a result of increasing exaggerations from 0% to 51% under Settings. Increasing exaggerations makes the voice sound less robotic, although anything too far above 50% may not yield favorable results.</p>
                     <h3>Task:</h3>
-                        <p>Copy the same script you used in the previous task and paste again on ElevenLabs. Before you click “Generate Speech,” adjust the stability and exaggerations. You may reduce stability slightly and increase exaggerations. Feel free to continue making adjustments until you get the flow that works best for your audio file.</p>
+                        <ul>
+                            <li>Copy the same script you used in the previous task and paste again on ElevenLabs. Before you click “Generate Speech,” adjust the stability and exaggerations. You may reduce stability slightly and increase exaggerations. Feel free to continue making adjustments until you get the flow that works best for your audio file.</li>
+                        </ul>
                         <p>A closer listen to the audio files above brings us to the point we made earlier about LLMs: They make mistakes.</p>
                         <p>Barely seven seconds into the script, the voice from ElevenLabs says “…that the state government approved 2.27bn naira for the emirate councils…” In the original script, there is no “naira” contained in the text. The sum “2.27bn” was written without any indication of currency. However, ElevenLabs predicted (probably based on the word “Kano”) that the allocated funds were in naira.</p>
                         <p>Seeing as the same mistake was made in both audio files, simply regenerating another voice over does not fix this.</p>
@@ -99,33 +102,41 @@
                         <p>When a user visits NotebookLM (via notebooklm.google), the interface gives you options to upload documents, from your computer or google drive, or to paste links or text.</p>
                         <p>[Insert image: NotebookLM interface]</p>
                     <h3>Task:</h3>
-                        <p>Click on Google Drive, Link or Paste Text (depending on the nature of the document you intend to upload).</p> 
+                        <ul>
+                            <li>Click on Google Drive, Link or Paste Text (depending on the nature of the document you intend to upload).</li>
+                        </ul> 
                         <p>Any option takes you to an interface with three panels: your source (document) is stored at the left, a chat box lies at the middle and the studio, at the right. If the anticipated result for this task was text-based, most of the work would be done within the chat box, but for audio, our focus will be the studio by the right.</p>
-                        <p>insert image “three panels for NotebookLM”]</p>
-                        <p>Put your text or document in the space provided.</p>
-                        <p>Click on “Generate” in the studio panel, or “Audio Overview” in the chat box. This creates a two-host podcast within a few minutes, which NotebookLM often refers to as “The Deep Dive.”</p>
-                        <p>Listen to this podcast generated following the steps above. The audio is based on an excerpt from AP’s story: “Trump expresses doubts Putin is willing to end the Ukraine war, a day after saying a deal was close”.</p>
+                        <p>[insert image “three panels for NotebookLM”]</p>
+                        <ul>
+                            <li>Put your text or document in the space provided.</li>
+                            <li>Click on “Generate” in the studio panel, or “Audio Overview” in the chat box. This creates a two-host podcast within a few minutes, which NotebookLM often refers to as “The Deep Dive.”</li>
+                        </ul>
+                        <p>Listen to this <a href="https://notebooklm.google.com/notebook/459ca64b-ac06-415f-a973-ec4f2fa47ce5/audio">podcast</a> generated following the steps above. The audio is based on an excerpt from AP’s story: <a href="https://apnews.com/article/trump-russia-ukraine-zelenskyy-funeral-francis-vatican-7b3b3e6e194e7099e5463d1f23b5f3cf">“Trump expresses doubts Putin is willing to end the Ukraine war, a day after saying a deal was close”</a>.</p>
                         <p>The podcast touches on every relevant information in the document, in an order that keeps the conversation going and interests listeners.</p>
                         <p>Beyond just feeding the script to the LLM, the audio file above was generated without much contribution from the user. This is because the options that LLMs give for writing prompts in creating audio files are not as flexible as with text.</p>
                         <p>NotebookLM, however, provides some opportunities for users to influence audio files. Clicking on “Customize” just beside “Generate” lets you do three things like  focusing on a specific source, a specific topic, or targeting a specific audience.</p>
-                        <p>Listen to this audio on the same topic which was customized before audio generation to: Target a specific audience(‘Explain to someone who is new to American Politics’).</p> 
+                        <p>Listen to this <a href="https://notebooklm.google.com/notebook/a8bb2798-48fb-4ff0-85a9-23e6f528692b/audio">audio</a> on the same topic which was customized before audio generation to: Target a specific audience(‘Explain to someone who is new to American Politics’).</p> 
                         <p>You might notice that the audio file contains more references to people who do not follow the Trump-Putin-Zelensky conversation, and there is more background information. It is also  more explanatory than the initial output. Observe how even the pace of the conversation is significantly slower.</p>
                         <p>Prompts for customizations seem more effective when written in the format already created by NotebookLM: with quotes and brackets. </p>
                         <p>[Insert image: customization]</p>
                         <p>A user can significantly control the direction of a conversation by customizing the audio before it is generated. You can bring in some background information relevant to the topic, among other things.</p>
-                        <p>In this audio file still based on the AP story, I asked NotebookLM to focus on Putin’s first attack on Ukraine at the beginning of the war while discussing the current efforts at negotiating peace. The conversation was woven around this customization, referred to as “the commentary” throughout the podcast.</p>
+                        <p>In this <a href="https://notebooklm.google.com/notebook/3999fcaf-2ce8-4bb8-9d48-fdcd90acb5ae/audio">audio</a> file still based on the AP story, I asked NotebookLM to focus on Putin’s first attack on Ukraine at the beginning of the war while discussing the current efforts at negotiating peace. The conversation was woven around this customization, referred to as “the commentary” throughout the podcast.</p>
                         <p>But assuming you would have liked to steer the conversation to a different direction, after an audio has been generated, users do not have too many options for this.</p>
                         <p>NotebookLM allows a  user to join a conversation after it has been created, and users can redirect conversations when they join.</p>
                     <h3>Task:</h3>
-                        <p>Below the audio file you generated, click on Interactive mode BETA</p>
+                        <ul>
+                            <li>Below the audio file you generated, click on Interactive mode BETA</li>
+                        </ul>
                         <p>[Insert image: Interactive mode]</p>
                         <p>The blue “join” button below your file lets you interrupt the conversation. It is an opportunity to ask questions of the presenters or urge them to explore a more important angle of the document/source.</p>
-                        <p>Click “join’ and interrupt the conversation. Raise a question or make a contribution that steers the conversation away from the angle currently being discussed.</p>
+                        <ul>
+                        <li>Click “join’ and interrupt the conversation. Raise a question or make a contribution that steers the conversation away from the angle currently being discussed.</li>
+                        </ul>
                         <p>Notice how the hosts are now talking about the point you raised?</p>
                         <p>This new conversation between you and the hosts, however, does not alter the original file you generated. At best, joining conversations on NotebookLM after speech generation is a great option when creating an audio for personal or internal purposes, since those audio prompts do not affect the generated speech.</p> 
                         <p>Users can also encounter difficulties when uploaded texts have errors in them. Your best option is to correct the text you uploaded and regenerate the podcast.</p>
                         <p>A different kind of problem can occur when your LLM hallucinates or smuggles something into the audio from outside your text.</p>
-                        <p>Listen to this audio generated from the same AP story as before.</p>
+                        <p>Listen to this <a href ="https://notebooklm.google.com/notebook/71862c44-914d-47ec-9036-5704defd3975/audio">audio</a> generated from the same AP story as before.</p>
                         <p>At the beginning of the document, the male voice refers to the current U.S. President, Donald Trump, as “former president Trump,” even when there is no “former” in the text.</p>
                         <p>Again, speech files are not like texts where you can immediately write a prompt to correct such errors. Also, since the word “former” does not exist in the script, going into the script to take out the word is not an option.</p>
                         <p>This was resolved by regenerating the audio file on NotebookLM. But there might be cases where such problems persist, like we experienced during our encounter with ElevenLabs. A better approach, as was suggested earlier, is to completely restructure the sentence in the document.</p>
@@ -133,10 +144,12 @@
                         <p>Having audio translations to other languages (such as Spanish) using AI would open up a much larger audience base for any newspaper, especially one covering global news.</p>
                         <p>Most speech-to-text LLMs generate audio directly from the text they receive. This means that English text can only generate audio files in English language. Getting audio files in Spanish or French while working with a document written in English is not likely to work, especially on LLMs like ElevenLabs, because the option does not currently exist. To get an audio file in a different language, one can use other existing tools, such as Google Translate,  to convert the text to a different language. This can be uploaded to the LLM for audio generation.</p>
                     <h3>Task:</h3>
-                        <p>Copy the text for a news story and translate to Spanish using Google Translate.</p>
-                        <p>Copy the Spanish text and paste into ElevenLabs.</p>
-                        <p>Generate an audio file, using the same step as with previous tasks.</p>
-                        <p>This audio file was intended to be a voice over in Igbo, a Nigerian Language, which Rachael, one of the premade voices from ElevenLabs, does not have such a great mastery of. The delivery of the script is completely flat, compared to the flow and rhythm in the Spanish audio (which was quite well delivered), even though both languages are not English.</p>
+                        <ul>
+                        <li>Copy the text for a news story and translate to Spanish using Google Translate.</li>
+                        <li>Copy the Spanish text and paste into ElevenLabs.</li>
+                        <li>Generate an audio file, using the same step as with previous tasks.</li>
+                        </ul>
+                        <p>This <a href="https://elevenlabs.io/app/share/VSOHcEHkAzwBdkrOc3dl">audio</a> file was intended to be a voice over in Igbo, a Nigerian Language, which Rachael, one of the premade voices from ElevenLabs, does not have such a great mastery of. The delivery of the script is completely flat, compared to the flow and rhythm in the Spanish audio (which was quite well delivered), even though both languages are not English.</p>
                         <p>This suggests that LLMs like ElevenLabs are better with [name for globally recognized languages] than less popular languages.</p>
                         <p>An observant Igbo speaker will  notice that ElevenLabs did sneak in words that were not expressly included in the script, like NotebookLM did in our previous exercise. A paragraph in the Igbo script had the day’s date written as “Eprel 11” (April 11). If “11” had been translated to Igbo, it would have been written in the script as “iri abuo n’otu,” thus, “April 11” would have been written as “Epril iri abuo n’otu.” It was not written that way, but Rachel said “Epril iri abuo n’otu,” even though 11 was not transcribed in the script.</p>
                         <p>Was she correct? Yes.</p>
