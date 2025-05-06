@@ -12,7 +12,7 @@ body {
 
 /* Apply Gelasio for main paragraph text for a more classic article feel */
 main p {
-    font-family: 'Gelasio', serif;
+    font-family: 'Playfair Display', serif;
     line-height: 1.7; /* Improve readability for serif font */
     margin-bottom: 1.25rem; /* Consistent spacing below paragraphs */
 }
@@ -70,7 +70,7 @@ main p {
     align-items: center;
     text-align: center;
     color: white; /* Or any color that works well with your image */
-    background-color: rgba(0, 0, 0, 0.3); /* Optional semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.7); /* Optional semi-transparent background */
     z-index: 2; /* Ensure the overlay is on top of the image */
     padding: 20px;
     box-sizing: border-box; /* Include padding in the width/height */
@@ -79,6 +79,7 @@ main p {
 
 .image-overlay h1 {
     font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
     margin-bottom: 0.5em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for better readability */
 }
@@ -86,6 +87,7 @@ main p {
 .image-overlay .byline {
     font-size: 1.2em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Playfair Display', serif;
 }
 
 /* Make sure the header section matches the background color of the */
@@ -104,8 +106,7 @@ main {
     /* Add padding if not using a .container directly inside main */
     padding: 1rem;
     width: 900px;
-    margin: 0 auto; /*Center main content*/
-    background-color: #d3d3d3;
+    margin: 0 auto;
 }
 
 section {
@@ -113,13 +114,18 @@ section {
 }
 
 section h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.75rem; /* Size for section headings */
     font-weight: 600; /* Semi-bold */
     color: #495057; /* A slightly muted dark color */
     margin-bottom: 1.5rem; /* Space below section headings */
     padding-bottom: 0.5rem; /* Space for the border */
     border-bottom: 2px solid #dee2e6; /* Light border below headings */
+    text-align: center;
+}
+.flourish-embed .image {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 /* --- Placeholder Note Styling --- */
