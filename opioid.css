@@ -1,0 +1,173 @@
+/* opioid.css - Custom Stylesheet */
+
+/* --- Global Styles & Font Application --- */
+
+body {
+    /* Apply Montserrat as the default sans-serif font */
+    font-family: 'Montserrat', sans-serif;
+    /*padding-top: 56px;  Remove padding to eliminate space above navbar */
+                     /* Adjust this value based on the actual navbar height if needed */
+    margin: 0; /*Remove default body margin*/
+}
+
+/* Apply Gelasio for main paragraph text for a more classic article feel */
+main p {
+    font-family: 'Gelasio', serif;
+    line-height: 1.7; /* Improve readability for serif font */
+    margin-bottom: 1.25rem; /* Consistent spacing below paragraphs */
+}
+
+/* --- Navbar Specific Styles --- */
+
+.navbar {
+    /* Background color is set by Bootstrap's data-bs-theme="dark", but you could override */
+    /* background-color: #343a40; */ /* Example dark color */
+    padding: 0.5rem 1rem; /* Adjust padding if needed */
+}
+
+.nav-logo {
+    font-size: 1.25rem; /* Make the logo text slightly larger */
+    font-weight: 600; /* Semi-bold */
+    color: #ffffff; /* White text, assuming dark theme */
+    /*padding-left: 1rem; Remove side padding to allow centering */
+    display: block;
+    text-align: center;
+}
+
+.nav-logo .red {
+    color: #dc3545; /* Bootstrap's standard danger/red color */
+    font-weight: 700; /* Bold */
+}
+
+
+/* --- Fading Lead Image Styles --- */
+
+.lead-image-container {
+    position: relative; /* Needed for absolute positioning of the overlay */
+    width: 100%;
+    height: 600px; /* Adjust as needed */
+    overflow: hidden; /* Prevents image from overflowing the container */
+}
+
+.lead-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for fade and zoom */
+    z-index: 1; /* Ensure image is behind the overlay text */
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Or any color that works well with your image */
+    background-color: rgba(0, 0, 0, 0.3); /* Optional semi-transparent background */
+    z-index: 2; /* Ensure the overlay is on top of the image */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width/height */
+    transition: opacity 0.5s ease; /* Smooth transition for fade */
+}
+
+.image-overlay h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for better readability */
+}
+
+.image-overlay .byline {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Make sure the header section matches the background color of the */
+body {
+  background-color: #f8f9fa; /* Light background for header */
+}
+
+header {
+    background-color: #f8f9fa; /* Light background for header */
+}
+
+/* --- Main Content & Sections --- */
+
+main {
+    /* Bootstrap's container class usually handles width and centering. */
+    /* Add padding if not using a .container directly inside main */
+    padding: 1rem;
+    width: 900px;
+    margin: 0 auto; /*Center main content*/
+    background-color: #d3d3d3;
+}
+
+section {
+    margin-bottom: 2.5rem; /* Add significant space between sections */
+}
+
+section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem; /* Size for section headings */
+    font-weight: 600; /* Semi-bold */
+    color: #495057; /* A slightly muted dark color */
+    margin-bottom: 1.5rem; /* Space below section headings */
+    padding-bottom: 0.5rem; /* Space for the border */
+    border-bottom: 2px solid #dee2e6; /* Light border below headings */
+}
+
+/* --- Placeholder Note Styling --- */
+
+.placeholder-note {
+    /*font-family: 'Montserrat', sans-serif;  Use sans-serif for notes */
+    /*font-style: italic; */
+    /*color: #6c757d;  Muted text color */
+    /*background-color: #e9ecef; Light gray background */
+    /*padding: 0.75rem 1rem;  Padding inside the note */
+    /*border-left: 4px solid #adb5bd; Gray left border */
+    /*margin-top: 1rem;*/
+    /*margin-bottom: 1.5rem; Consistent spacing */
+    /*font-size: 0.9em;*/
+    display:none;
+}
+
+/* --- Footer --- */
+
+footer {
+    text-align: center;
+    margin-top: 3rem; /* Space above the footer */
+    padding: 10px 0;  /* Reduced padding for slimmer footer */
+    /*border-top: 1px solid #dee2e6; Separator line */
+    font-size: 0.85em;
+    color: white; /* Muted color */
+    background-color: black; /* Match header background */
+}
+
+footer p {
+     font-family: 'Montserrat', sans-serif; /* Ensure footer uses sans-serif */
+     margin-bottom: 0; /* Remove default paragraph margin in footer */
+}
+
+/* --- Responsive Adjustments (Optional Examples) --- */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Slightly smaller title on smaller screens */
+    }
+
+    section h2 {
+        font-size: 1.5rem; /* Smaller section headings */
+    }
+
+    .nav-logo {
+        font-size: 1.1rem; /* Smaller logo text */
+    }
+}
