@@ -33,7 +33,7 @@ main p {
 }
 
 .nav-logo .red {
-    color: #dc3545; /* Bootstrap's standard danger/red color */
+    color: #e25501; /* Bootstrap's standard danger/red color */
     font-weight: 700; /* Bold */
 }
 
@@ -128,8 +128,9 @@ section h2 {
     margin: 0 auto;
 }
 .image {
-    width: 1000px;
     margin: 0 auto;
+    width: 800px;
+    margin-top: 40px;
 }
 
 /* --- Placeholder Note Styling --- */
