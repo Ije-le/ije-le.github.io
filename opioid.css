@@ -123,7 +123,11 @@ section h2 {
     border-bottom: 2px solid #dee2e6; /* Light border below headings */
     text-align: center;
 }
-.flourish-embed .image {
+.flourish-embed {
+    width: 1000px;
+    margin: 0 auto;
+}
+.image {
     width: 1000px;
     margin: 0 auto;
 }
