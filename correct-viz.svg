@@ -1,1 +1,260 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600"><rect width="600" height="600" x="0" y="0" fill="#ffffff" id="background"/><g transform="translate(40,20)" id="visualization"><g><rect x="525" y="0" height="0.8573664367280571" width="5" fill="black"><title>South Dakota: 4187515.61</title></rect><rect x="525" y="5.857366436728057" height="2.721101752547611" width="5" fill="black"><title>Montana: 13290298.73</title></rect><rect x="525" y="13.578468189275668" height="3.0138898967480543" width="5" fill="black"><title>Delaware: 14720323.13</title></rect><rect x="525" y="21.592358086023722" height="3.375244856873536" width="5" fill="black"><title>Vermont: 16485238.89</title></rect><rect x="525" y="29.96760294289726" height="3.576022469264899" width="5" fill="black"><title>Hawaii: 17465869.05</title></rect><rect x="525" y="38.54362541216216" height="4.411556846684903" width="5" fill="black"><title>Nebraska: 21546753.37</title></rect><rect x="525" y="47.95518225884706" height="5.714823140841034" width="5" fill="black"><title>District of Columbia: 27912115.62</title></rect><rect x="525" y="58.670005399688094" height="7.054902071685774" width="5" fill="black"><title>Mississippi: 34457276.71</title></rect><rect x="525" y="70.72490747137387" height="7.085195455470313" width="5" fill="black"><title>Maine: 34605234.47</title></rect><rect x="525" y="82.81010292684418" height="10.192431507517426" width="5" fill="black"><title>Iowa: 49781475.24</title></rect><rect x="525" y="98.0025344343616" height="13.736499746805464" width="5" fill="black"><title>Arkansas: 67091274.69</title></rect><rect x="525" y="116.73903418116707" height="17.380514501370968" width="5" fill="black"><title>Connecticut: 84889229</title></rect><rect x="525" y="139.11954868253804" height="19.48704088185059" width="5" fill="black"><title>Maryland: 95177842.74</title></rect><rect x="525" y="163.60658956438863" height="22.114037898435868" width="5" fill="black"><title>Wisconsin: 108008518.8</title></rect><rect x="525" y="190.7206274628245" height="24.185421468467382" width="5" fill="black"><title>Kentucky: 118125489.4</title></rect><rect x="525" y="219.90604893129188" height="32.513016648111716" width="5" fill="black"><title>Ohio: 158798804</title></rect><rect x="525" y="257.4190655794036" height="42.87861809838881" width="5" fill="black"><title>Pennsylvania: 209426069.1</title></rect><rect x="525" y="305.2976836777924" height="45.636957356922096" width="5" fill="black"><title>Indiana: 222898241.8</title></rect><rect x="525" y="355.9346410347145" height="90.7192145582548" width="5" fill="black"><title>West Virginia: 443087238.8</title></rect><rect x="525" y="451.6538555929693" height="108.34614440703069" width="5" fill="black"><title>New York: 529180000</title></rect><rect x="0" y="45.00000000000006" height="218.64702049362268" width="5" fill="black"><title>Bottom 10 deaths: 1067907224</title></rect><rect x="0" y="268.64702049362273" height="246.35297950637727" width="5" fill="black"><title>Top 10 deaths: 1203227585.15</title></rect></g><g fill="none" stroke-opacity="1"><g style="mix-blend-mode: multiply;"><path d="M5,469.64039272087257C265,469.64039272087257,265,401.29424831384193,525,401.29424831384193" stroke="#ffd393" stroke-width="90.71921455825482"/><title>Top 10 deaths → West Virginia: 443087238.8</title></g><g style="mix-blend-mode: multiply;"><path d="M5,277.89356681766486C265,277.89356681766486,265,50.81259382926758,525,50.81259382926758" stroke="#ffd393" stroke-width="5.71482314084103"/><title>Top 10 deaths → District of Columbia: 27912115.62</title></g><g style="mix-blend-mode: multiply;"><path d="M5,270.1539654419968C265,270.1539654419968,265,15.085413137649693,525,15.085413137649693" stroke="#ffd393" stroke-width="3.013889896748051"/><title>Top 10 deaths → Delaware: 14720323.13</title></g><g style="mix-blend-mode: multiply;"><path d="M5,336.79643996101095C265,336.79643996101095,265,202.8133381970582,525,202.8133381970582" stroke="#ffd393" stroke-width="24.185421468467386"/><title>Top 10 deaths → Kentucky: 118125489.4</title></g><g style="mix-blend-mode: multiply;"><path d="M5,284.2935761158205C265,284.2935761158205,265,74.26750519910902,525,74.26750519910902" stroke="#ffd393" stroke-width="7.085195455470304"/><title>Top 10 deaths → Maine: 34605234.47</title></g><g style="mix-blend-mode: multiply;"><path d="M5,365.14565901930047C265,365.14565901930047,265,236.16255725534774,525,236.16255725534774" stroke="#ffd393" stroke-width="32.51301664811172"/><title>Top 10 deaths → Ohio: 158798804</title></g><g style="mix-blend-mode: multiply;"><path d="M5,314.96020878585193C265,314.96020878585193,265,148.86306912346333,525,148.86306912346333" stroke="#ffd393" stroke-width="19.48704088185059"/><title>Top 10 deaths → Maryland: 95177842.74</title></g><g style="mix-blend-mode: multiply;"><path d="M5,296.5264310942411C265,296.5264310942411,265,125.42929143185256,525,125.42929143185256" stroke="#ffd393" stroke-width="17.380514501370982"/><title>Top 10 deaths → Connecticut: 84889229</title></g><g style="mix-blend-mode: multiply;"><path d="M5,273.34853281880754C265,273.34853281880754,265,23.27998051446049,525,23.27998051446049" stroke="#ffd393" stroke-width="3.3752448568735365"/><title>Top 10 deaths → Vermont: 16485238.89</title></g><g style="mix-blend-mode: multiply;"><path d="M5,402.8414763925507C265,402.8414763925507,265,278.85837462859797,525,278.85837462859797" stroke="#ffd393" stroke-width="42.8786180983888"/><title>Top 10 deaths → Pennsylvania: 209426069.1</title></g><g style="mix-blend-mode: multiply;"><path d="M5,60.09349854106837C265,60.09349854106837,265,62.19745643553098,525,62.19745643553098" stroke="#e25501" stroke-width="7.054902071685769"/><title>Bottom 10 deaths → Mississippi: 34457276.71</title></g><g style="mix-blend-mode: multiply;"><path d="M5,80.68163095783137C265,80.68163095783137,265,104.87078430776432,525,104.87078430776432" stroke="#e25501" stroke-width="13.736499746805439"/><title>Bottom 10 deaths → Arkansas: 67091274.69</title></g><g style="mix-blend-mode: multiply;"><path d="M5,47.217917313001934C265,47.217917313001934,265,7.217917313001873,525,7.217917313001873" stroke="#e25501" stroke-width="2.721101752547633"/><title>Bottom 10 deaths → Montana: 13290298.73</title></g><g style="mix-blend-mode: multiply;"><path d="M5,68.71716533066996C265,68.71716533066996,265,87.90631868060288,525,87.90631868060288" stroke="#e25501" stroke-width="10.192431507517409"/><title>Bottom 10 deaths → Iowa: 49781475.24</title></g><g style="mix-blend-mode: multiply;"><path d="M5,209.4739482901074C265,209.4739482901074,265,505.82692779648465,525,505.82692779648465" stroke="#e25501" stroke-width="108.34614440703068"/><title>Bottom 10 deaths → New York: 529180000</title></g><g style="mix-blend-mode: multiply;"><path d="M5,132.482397408131C265,132.482397408131,265,328.1161623562535,525,328.1161623562535" stroke="#e25501" stroke-width="45.63695735692211"/><title>Bottom 10 deaths → Indiana: 222898241.8</title></g><g style="mix-blend-mode: multiply;"><path d="M5,98.60689978045203C265,98.60689978045203,265,174.66360851360656,525,174.66360851360656" stroke="#e25501" stroke-width="22.114037898435857"/><title>Bottom 10 deaths → Wisconsin: 108008518.8</title></g><g style="mix-blend-mode: multiply;"><path d="M5,50.36647942390818C265,50.36647942390818,265,31.755614177529697,525,31.755614177529697" stroke="#e25501" stroke-width="3.576022469264877"/><title>Bottom 10 deaths → Hawaii: 17465869.05</title></g><g style="mix-blend-mode: multiply;"><path d="M5,54.360269081883054C265,54.360269081883054,265,40.74940383550459,525,40.74940383550459" stroke="#e25501" stroke-width="4.411556846684861"/><title>Bottom 10 deaths → Nebraska: 21546753.37</title></g><g style="mix-blend-mode: multiply;"><path d="M5,45.428683218364085C265,45.428683218364085,265,0.42868321836403034,525,0.42868321836403034" stroke="#e25501" stroke-width="1"/><title>Bottom 10 deaths → South Dakota: 4187515.61</title></g></g><g><text x="521" y="0.42868321836402856" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">South Dakota</tspan></text><text x="521" y="7.217917313001863" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Montana</tspan></text><text x="521" y="15.085413137649695" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Delaware</tspan></text><text x="521" y="23.27998051446049" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Vermont</tspan></text><text x="521" y="31.755614177529708" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Hawaii</tspan></text><text x="521" y="40.74940383550461" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Nebraska</tspan></text><text x="521" y="50.81259382926758" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">District of Columbia</tspan></text><text x="521" y="62.19745643553098" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Mississippi</tspan></text><text x="521" y="74.26750519910902" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Maine</tspan></text><text x="521" y="87.9063186806029" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Iowa</tspan></text><text x="521" y="104.87078430776434" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Arkansas</tspan></text><text x="521" y="125.42929143185256" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Connecticut</tspan></text><text x="521" y="148.86306912346333" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Maryland</tspan></text><text x="521" y="174.66360851360656" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Wisconsin</tspan></text><text x="521" y="202.8133381970582" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Kentucky</tspan></text><text x="521" y="236.16255725534774" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Ohio</tspan></text><text x="521" y="278.85837462859797" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Pennsylvania</tspan></text><text x="521" y="328.1161623562534" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Indiana</tspan></text><text x="521" y="401.2942483138419" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">West Virginia</tspan></text><text x="521" y="505.82692779648465" text-anchor="end"><tspan alignment-baseline="middle" x="521" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">New York</tspan></text><text x="9" y="154.3235102468114" text-anchor="start"><tspan alignment-baseline="middle" x="9" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Bottom 10 deaths</tspan></text><text x="9" y="391.82351024681134" text-anchor="start"><tspan alignment-baseline="middle" x="9" style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">Top 10 deaths</tspan></text></g><g><text x="527.5" y="-4" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold;">state</text><text x="2.5" y="41.00000000000006" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold;">group/100000</text></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 682.82 682.82">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
+        fill: none;
+      }
+
+      .cls-1, .cls-8, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
+        stroke: #e25501;
+      }
+
+      .cls-2 {
+        stroke-width: 42.88px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke: #ffd393;
+      }
+
+      .cls-3 {
+        stroke-width: 90.72px;
+      }
+
+      .cls-4 {
+        stroke-width: 17.38px;
+      }
+
+      .cls-5 {
+        stroke-width: 32.51px;
+      }
+
+      .cls-6 {
+        stroke-width: 24.19px;
+      }
+
+      .cls-7 {
+        stroke-width: 19.49px;
+      }
+
+      .cls-8 {
+        stroke-width: 2.72px;
+      }
+
+      .cls-9 {
+        stroke-width: 3.38px;
+      }
+
+      .cls-10 {
+        stroke-width: 3.01px;
+      }
+
+      .cls-11 {
+        stroke-width: 5.71px;
+      }
+
+      .cls-12 {
+        stroke-width: 7.09px;
+      }
+
+      .cls-13 {
+        stroke-width: 3.58px;
+      }
+
+      .cls-14 {
+        stroke-width: 4.41px;
+      }
+
+      .cls-15 {
+        stroke-width: 10.19px;
+      }
+
+      .cls-16 {
+        stroke-width: 13.74px;
+      }
+
+      .cls-17 {
+        stroke-width: 7.05px;
+      }
+
+      .cls-18 {
+        stroke-width: 22.11px;
+      }
+
+      .cls-21, .cls-22 {
+        isolation: isolate;
+      }
+
+      .cls-19 {
+        stroke-width: 45.64px;
+      }
+
+      .cls-20 {
+        stroke-width: 108.35px;
+      }
+
+      .cls-22 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 10px;
+        font-weight: 700;
+      }
+
+      .cls-23 {
+        fill: #fff;
+      }
+
+      .cls-24 {
+        font-size: 24px;
+      }
+
+      .cls-24, .cls-25, .cls-26 {
+        font-family: Georgia, Georgia;
+      }
+
+      .cls-25 {
+        font-size: 12px;
+      }
+
+      .cls-26 {
+        font-size: 14px;
+      }
+
+      .cls-27 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-30 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect id="background" class="cls-23" width="682.82" height="682.82"/>
+  <g id="visualization">
+    <g>
+      <rect x="601.41" y="104.46" width="5" height=".86"/>
+      <rect x="601.41" y="110.32" width="5" height="2.72"/>
+      <rect x="601.41" y="118.04" width="5" height="3.01"/>
+      <rect x="601.41" y="126.05" width="5" height="3.38"/>
+      <rect x="601.41" y="134.43" width="5" height="3.58"/>
+      <rect x="601.41" y="143" width="5" height="4.41"/>
+      <rect x="601.41" y="152.41" width="5" height="5.71"/>
+      <rect x="601.41" y="163.13" width="5" height="7.05"/>
+      <rect x="601.41" y="175.18" width="5" height="7.09"/>
+      <rect x="601.41" y="187.27" width="5" height="10.19"/>
+      <rect x="601.41" y="202.46" width="5" height="13.74"/>
+      <rect x="601.41" y="221.2" width="5" height="17.38"/>
+      <rect x="601.41" y="243.58" width="5" height="19.49"/>
+      <rect x="601.41" y="268.06" width="5" height="22.11"/>
+      <rect x="601.41" y="295.18" width="5" height="24.19"/>
+      <rect x="601.41" y="324.36" width="5" height="32.51"/>
+      <rect x="601.41" y="361.88" width="5" height="42.88"/>
+      <rect x="601.41" y="409.76" width="5" height="45.64"/>
+      <rect x="601.41" y="460.39" width="5" height="90.72"/>
+      <rect x="601.41" y="556.11" width="5" height="108.35"/>
+      <rect x="76.41" y="149.46" width="5" height="218.65"/>
+      <rect x="76.41" y="373.11" width="5" height="246.35"/>
+    </g>
+    <path class="cls-3" d="M81.41,574.1c260,0,260-68.35,520-68.35"/>
+    <path class="cls-11" d="M81.41,382.35c260,0,260-227.08,520-227.08"/>
+    <path class="cls-10" d="M81.41,374.61c260,0,260-255.07,520-255.07"/>
+    <path class="cls-6" d="M81.41,441.25c260,0,260-133.98,520-133.98"/>
+    <path class="cls-12" d="M81.41,388.75c260,0,260-210.03,520-210.03"/>
+    <path class="cls-5" d="M81.41,469.6c260,0,260-128.98,520-128.98"/>
+    <path class="cls-7" d="M81.41,419.42c260,0,260-166.1,520-166.1"/>
+    <path class="cls-4" d="M81.41,400.98c260,0,260-171.1,520-171.1"/>
+    <path class="cls-9" d="M81.41,377.81c260,0,260-250.07,520-250.07"/>
+    <path class="cls-2" d="M81.41,507.3c260,0,260-123.98,520-123.98"/>
+    <path class="cls-17" d="M81.41,164.55c260,0,260,2.1,520,2.1"/>
+    <path class="cls-16" d="M81.41,185.14c260,0,260,24.19,520,24.19"/>
+    <path class="cls-8" d="M81.41,151.68c260,0,260-40,520-40"/>
+    <path class="cls-15" d="M81.41,173.18c260,0,260,19.19,520,19.19"/>
+    <path class="cls-20" d="M81.41,313.93c260,0,260,296.35,520,296.35"/>
+    <path class="cls-19" d="M81.41,236.94c260,0,260,195.63,520,195.63"/>
+    <path class="cls-18" d="M81.41,203.07c260,0,260,76.06,520,76.06"/>
+    <path class="cls-13" d="M81.41,154.82c260,0,260-18.61,520-18.61"/>
+    <path class="cls-14" d="M81.41,158.82c260,0,260-13.61,520-13.61"/>
+    <path class="cls-1" d="M81.41,149.89c260,0,260-45,520-45"/>
+    <g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(532.96 104.37)"><tspan x="0" y="0">South Dakota</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(556.3 111.16)"><tspan x="0" y="0">Montana</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(553.5 119.02)"><tspan x="0" y="0">Delaware</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(557.4 127.22)"><tspan class="cls-29" x="0" y="0">V</tspan><tspan x="6.12" y="0">ermont</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(565.73 135.69)"><tspan x="0" y="0">Hawaii</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(552.38 144.69)"><tspan x="0" y="0">Nebraska</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(502.41 154.75)"><tspan x="0" y="0">District of Columbia</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(543.51 166.14)"><tspan x="0" y="0">Mississippi</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(569.07 178.21)"><tspan x="0" y="0">Maine</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(575.18 191.85)"><tspan x="0" y="0">Iowa</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(552.38 208.81)"><tspan x="0" y="0">Arkansas</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(539.63 229.37)"><tspan x="0" y="0">Connecticut</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(553.51 252.8)"><tspan x="0" y="0">Maryland</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(547.49 278.6)"><tspan class="cls-30" x="0" y="0">W</tspan><tspan x="9.35" y="0">isconsin</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(552.4 306.75)"><tspan x="0" y="0">Kentucky</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(574.64 340.1)"><tspan x="0" y="0">Ohio</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(533.49 382.8)"><tspan x="0" y="0">Pennsylvania</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(562.41 432.06)"><tspan x="0" y="0">Indiana</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(534.43 505.23)"><tspan class="cls-28" x="0" y="0">W</tspan><tspan x="9.26" y="0">est </tspan><tspan class="cls-28" x="26.49" y="0">V</tspan><tspan x="32.98" y="0">irginia</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(552.76 609.77)"><tspan x="0" y="0">New</tspan><tspan class="cls-28" x="20.56" y="0"> </tspan><tspan class="cls-27" x="23.16" y="0">Y</tspan><tspan x="29.09" y="0">ork</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(85.41 258.26)"><tspan x="0" y="0">Bottom 10 deaths</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text class="cls-22" transform="translate(85.41 495.76)"><tspan class="cls-27" x="0" y="0">T</tspan><tspan x="5.37" y="0">op 10 deaths</tspan></text>
+      </g>
+    </g>
+  </g>
+  <text class="cls-24" transform="translate(68.98 51.81)"><tspan x="0" y="0">Highest and lowest states with deaths per 100,000</tspan></text>
+  <text class="cls-26" transform="translate(44.97 133.66)"><tspan x="0" y="0">Group of deaths/100,000</tspan></text>
+  <text class="cls-26" transform="translate(581.22 86.39) scale(1.36 1)"><tspan x="0" y="0">states</tspan></text>
+  <text class="cls-26" transform="translate(533.71 324.92)"><tspan x="0" y="0">Lorem ipsum</tspan></text>
+  <text class="cls-25" transform="translate(21.07 659.8)"><tspan x="0" y="0">Source: State Unintentional Drug Overdose Reporting System (SURDORS)</tspan></text>
+</svg>
