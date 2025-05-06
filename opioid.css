@@ -20,9 +20,8 @@ main p {
 /* --- Navbar Specific Styles --- */
 
 .navbar {
-    /* Background color is set by Bootstrap's data-bs-theme="dark", but you could override */
-    /* background-color: #343a40; */ /* Example dark color */
-    padding: 0.5rem 1rem; /* Adjust padding if needed */
+    background-color: #d3d3d3 !important;
+    padding: 0.5rem 1rem; 
 }
 
 .nav-logo {
