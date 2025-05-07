@@ -65,9 +65,24 @@
         <!--Open container-->  
                 <div class="container">
                     <h1>AI guide for dummies</h1>
-                        <p>Because of the nature of the internet, many newsrooms now explore different means of sharing information regardless of their original focus. It is not out of place to see a newsroom putting out podcasts or summarizing news reports through videos even though they originally publish in print. In such cases, problems like staff shortage or inadequate equipment to do proper voice overs may arise. Large Language Models (which we will now refer to as LLMs) can be used to navigate these problems.</p>
+                        <p>The coming of the internet, has mande many newsrooms to begin exploring different means of sharing information regardless of their original focus. It is not out of place to see a newsroom putting out podcasts or summarizing news reports through videos even though they originally publish in print. In such cases, problems like staff shortage or inadequate equipment to do proper voice overs may arise. Large Language Models (which we will now refer to as LLMs) can be used to navigate these problems.</p>
                         <p>Some models that newsrooms generating voice overs with AI should consider are NotebookLM and ElevenLabs. Both models can be accessed at notebooklm.google and elevenlab.io.</p>
                         <p>But first things first: LLMs and AI in general are just assistants. They make mistakes and it is the user’s job to find them. Next, a lot depends on prompts. LLMs are more likely to give better output if prompts are clear and specific.</p>
+                    <h2>More about prompts</h2>
+                    <p>There is no one size-fits-all for writing prompts. But they should be approached as instructions you are giving to an assistant, who you need to perform a task accurately. There is no guarantee that this assistant will perform the tasks as well as you need them to, which is why you should be prepared to repeat these instructions with more specificity. But you do have to be as clear and unambiguous as possible.</p>
+                    <p>Let’s take a look at an example of an inefficient prompt. The following prompt was fed to an LLM in the process of story idea generation:</p>
+                    <p><i>“Let us look at your idea on ‘The connection between banditry and military operations in the north-West.’ <br>What would be your treatment plan for this story?”</i></p>
+                    <p>Using words like treatment plan while communicating with LLMs is vague. This task could have been better communicated to the LLM by asking it for more specific tasks. Like asking what the highlights of the story should be.</p>
+                    <p>A better prompt would have been:</p>
+                    <p><i>“Let us look at your idea on ‘The connection between banditry and military operations in the north-West.’ Give me seven key questions that I should be trying to answer with the story.”</i></p>
+                    <p>Things to note about prompting:</p>
+                        <ul>
+                            <li>Specific and detailed instructions produce better results.</li>
+                            <li>Verification/checking output is needed, because LLMs can make mistakes and they do.</li>
+                            <li>Always let your AI tool know that they should not assume anything. This helps minimize hallucination, a common problem with LLMs.</li>
+                        </ul>
+                    <p>These same principles apply across different language models. One thing not to bother about with writing prompts is the length. LLMs are large language models for a reason and can certainly handle lengthy prompts. In addition to being specific, users should remind the LLM of its capabilities and what the desired outcome of the interaction should be.</p>
+                    <p>For text based generative AI models, like ChatGPT, the phrasing of prompts and instructions have much more impact on the outcome than many people realize. Noah MacCallum and Julian Lee from OpenAI wrote a helpful prompting guide we have linked <a href ="https://cookbook.openai.com/examples/gpt4-1_prompting_guide">here.</a></p>
                     <h2>Generating voice overs</h2>
                         <p>Let us generate voice overs by converting text to speech using ElevenLabs</p>
                         <p>When a user opens ElevenLabs (via elevenlabs.io), there is an option to “Get Started for Free.” That would be a fine place to start this exercise.</p>
