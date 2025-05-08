@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <title>AI guide for dummies</title>
-            <meta name="description" content="Merrill College of Journalism, UMD">
-            <meta name="author" content="Final Project">
-            <!--Bootstrap, CSS and Javascript-->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-            <!--My CSS Stylesheet & Javascript-->
-            <link rel="stylesheet" href ="opioid.css" type="text/css">
-            <script src="opioid.js"></script>
-            <!--My Google font-->
-            <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        </head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>AI guide for dummies</title>
+        <meta name="description" content="Merrill College of Journalism, UMD">
+        <meta name="author" content="Group Project">
+        <!--Bootstrap, CSS and Javascript-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <!--My CSS Stylesheet-->
+        <link rel="stylesheet" href ="style.css" type="text/css">
+        <!--My Javascript-->
+        <script src="javascript.js"></script>
+
+    </head>    
     <body>
         <!-- Navbar start-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -42,7 +41,75 @@
             </div>
             </nav>
         <!--Navbar ends-->
-        <!--Featured image-->
+        <header>
+            <div class="featured-image-container">
+                <img src="https://ije-le.github.io/Group-AI-guide/Gemini_image_recap.jpeg" alt="AI-generated image" class="featured-image">
+            </div>
+            <h1>Short Minute Weekly News Recapp</h1>
+        </header>
+        
+            <div class="container">
+                <p>Creating a short video recap of important news stories from the past few days is an effective way to reach a broader audience, as it delivers essential information quickly and clearly. This method of delivering news is for people with fast-paced, busy schedules, short attention spans, and limited free time who may not have the time to sit down and read a full article or watch morning news channels.</p>
+                
+                <p>Social media platforms like TikTok and Instagram Reels thrive because they can produce short, yet engaging, videos that capture viewers' attention for a brief period. Therefore, these platforms are ideal for news outlets to take advantage of, as they can extend their reach beyond just broadcast TV news and online websites. Gen Z and Millennials are also already accustomed to using these platforms as a source of entertainment, so adapting to the younger generations allows for a larger audience to be reached. Younger audiences will have the opportunity to stay informed and engage with news.</p>
+                
+                <p>Understanding that the idea is to deliver multiple news stories in under 90 seconds, it's no surprise that these stories might not be as in-depth as every single detail can be read in the full article online. However, the point of these recaps isn't to provide the whole story; it's supposed to give a quick summary of a story. If a viewer is interested in a story relayed through the recap, they can proceed at their own time to view the full story on the news website.</p>
+                
+                <h3>Creating Task</h3>
+                <p>Newsrooms must use regular AI and AI audio-generation platforms to create these auto-generated news recap videos. As an overview, this task can be broken into two sections: generating a script and using an AI Audio generator to make the voice dictate the script. Depending on the platform they choose to release the script on, the newsroom can add pictures for story context if they choose.</p>
+                
+                <h3>Task Part 1: Script Generating</h3>
+                <p>First, the newsroom needs to select which news articles they deem most important for the public from the past week. Since time is short, the newsroom should choose only six stories at most to ensure that the audio has enough time to summarize the story adequately.</p>
+                
+                <p>Second, the newsroom must implement these stories into the generic AI of their choice, with a basic direction prompt that asks the AI to create a script. The prompt should be clear and specific, suggesting the script features a professional or formal dialogue. It should also be neither too long nor too short, but just enough to fill 60-90 seconds. To hit all these parameters, the prompt should sound similar to this:</p>
+                
+                <ul>
+                    <li>Create a script summarizing these six articles (links provided later) that a news anchor would speak. The script should take around 60-90 seconds to be spoken.</li>
+                    <li>After inserting the links, the AI should produce a script based on the articles provided. The script should look something like this.</li>
+                    <li>Depending on the News Organization's preference, some edits may need to be made once the script is finished being changed and edited. The script should look similar to this:</li>
+                    <li>After completing the script, Part 1 is done, and will now move on to Part 2.</li>
+                </ul>
+                
+                <h3>Task Part 2: Audio Generation</h3>
+                <p>After creating the script, the second part is to dictate it using a different AI platform. Many other AI platforms specialize in AI Audio that dictates text. For this example, Eleven Labs will be used to dictate the following script.</p>
+                
+                <ul>
+                    <li>Eleven Labs can be used for various tasks; however, for this task, the Text to Speech tab is the option to choose from.</li>
+                    <li>After selecting the Text to Speech Option, input the script created in Part 1 into ElevenLabs' text-to-speech section and select which type of voice will dictate the script back. Alice is the most suitable voice for professional news delivery.</li>
+                    <li>After selecting a voice, press generate speech, and the AI will have the AI audio read the script back to you. From there, newsrooms can adjust through the sliders on the right. There are four different slider modifications that the newsroom can adjust to their liking.</li>
+                    <li>After adjusting to the newsroom's liking, the task is complete.</li>
+                </ul>
+                
+                <p>The overall usefulness lies in it being another platform to share news. The most challenging part of using AI for this task is writing the script, not the speaking itself. The voice AI is relatively easy in the grand scheme of things; all you have to do is generate what you want the AI to say, and the AI sounds pretty human-like and realistic. News can easily benefit from quick recap news, making news organizations more accessible on different short-attention platforms like TikTok or Instagram.</p>
+                <h2>Virtual Assistance Feedback and Suggestions</h2>
+                <p>This would be a voice assistant like Alexa or Siri that can provide specific feedback and assistance based on what the user asks. The voice assistant can be triggered by text. With voice assistance, the AI would take the question the user had previously requested and provide pathways to related questions that the user might want to ask as a follow-up. The AI is mainly used as a predictive language, as it should be able to anticipate what the user will ask next. The AI should not only be able to suggest other articles that the user has previously read, but also be able to answer questions that the user may have.</p>
+                <h3>Creating the Task</h3>
+                <p>For the AI to complete this task, it will need to use past data to predict what the user will do next effectively. Past data would mean that the AI must know at least the first article you picked to suggest the following article you might enjoy. Going off that point, the AI could answer any questions the user may have after selecting an article to read. Asking the AI without context, or an article chosen would not lead to an optimal response by the AI. The following AI that will be used is ChatGPT, but other mainstream LLMs can be used, like Gemini, Claude, or Perplexity.</p>
+                
+                <h3>Task Part 1: Recommending Next Articles</h3>
+                <p>The following demonstrates how the AI will suggest articles based on previous articles that the user had looked up. The AI will provide articles and continue offering new suggestions for articles the user might want to read. This is a continuous cycle of suggestions, so suggestions will continue once the AI is in the cycle.</p>
+                
+                <ul>
+                    <li>The following prompt should be: I will pick an article, what article might I want to read next after reading the first article I am about to provide you?</li>
+                    <li>Select an article and have the AI produce a list of articles as a suggestion. If the AI only gives one response, tell the AI to make a list consistently.</li>
+                    <li>Continue to make a selection to allow the AI to build off the cycle and make more suggestions.</li>
+                    <li>This should be able to be used for any article that a user suggests, and if the user wants to move from one topic to another, the AI will be able to adapt to that change and suggest new stories.</li>
+                </ul>
+                
+                <h3>Task Part 2: Answering Questions</h3>
+                <p>The following is a demonstration of how AI assistance works. There are not many steps to setting up AI assistance. Instead, the newsroom would have to set up parameters for the AI to follow, especially regarding answering questions. This type of task requires more trial and error rather than a designated plan of operation, since the input is always different.</p>
+                
+                <ul>
+                    <li>The first prompt to ask the AI should be: Can you answer the question that one asks based on the provided article? Then provide the link to the article,</li>
+                    <li>Ask the AI.</li>
+                    <li>Continue to ask the AI questions based on the particular article provided; as more questions are asked, the AI will produce better responses.</li>
+                </ul>
+            </div>
+        <!--Add footer-->
+        <footer class="footer mt-auto py-3 bg-dark">
+            <div class="footer">
+                <span id="text-muted">www.aiguide.com</span>
+        </footer>
          
 
     </body>
