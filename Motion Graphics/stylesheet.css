@@ -1,0 +1,11 @@
+.placeholder-box {
+    font-size: 1.2rem;
+}
+
+.card-body p {
+    line-height: 1.7;
+}
+
+header h1 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
