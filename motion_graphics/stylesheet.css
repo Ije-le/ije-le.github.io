@@ -43,8 +43,31 @@
   margin-right: auto;      /* center paragraphs */
 }
 
+/* MAIN CONTENT */
+.blog-content {
+  width: 100%;          /* span full page width */
+  padding-left: 2rem;   /* some breathing room on sides */
+  padding-right: 2rem;
+  color: #222;
+  text-align: center;   /* keep text centered visually */
+  position: relative;
+  z-index: 1;
+}
+
+/* PULLQUOTE-STYLE PARAGRAPHS */
+.blog-content p {
+  font-size: 1.8rem;
+  line-height: 2.4;
+  margin: 5rem 0;        /* vertical spacing */
+  letter-spacing: 0.5px;
+  color: #3a3a3a;
+  font-weight: 500;
+}
+
 /* VIDEO STYLING */
 .video-section {
+  width: 100%;           /* take full width */
+  max-width: none;       /* remove narrow constraints */
   background: #fff0f0;
   border-left: 6px solid #b30017;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
@@ -52,6 +75,9 @@
 }
 
 .video-placeholder {
+  width: 100%;           /* video placeholder full width */
+  max-width: 1200px;     /* optional max width */
+  margin: 0 auto;
   background: #f2dcdc;
   color: #7a000e;
   display: flex;
