@@ -1,12 +1,14 @@
-/* HERO IMAGE */
+/* FEATURED HERO IMAGE */
 .hero-image {
   height: 60vh;
-  background-image: url('hero-image.jpg'); /* Replace with your image */
+  background-image: url('hero-image.jpg'); /* Replace with your featured image */
   background-size: cover;
   background-position: center;
   position: sticky;
   top: 0;
-  z-index: -1;
+  z-index: 1;
+  display: flex;
+  transition: opacity 0.8s ease; /* For fading */
 }
 
 .hero-text {
@@ -19,16 +21,23 @@
 .content-wrapper {
   max-width: 800px;
   margin: 0 auto;
+  position: relative;
+  z-index: 2; /* ensure it scrolls over hero */
+}
+
+.card-body {
+  text-align: center;
+  color: #222;
 }
 
 .card-body p {
   line-height: 1.8;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* VIDEO STYLING */
 .video-section {
-  background: #fff5f5;
+  background: #fff0f0;
   border-left: 6px solid #b30017;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
@@ -36,15 +45,19 @@
 .video-placeholder {
   background: #f2dcdc;
   color: #7a000e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 
 /* FOOTER */
 .red-footer {
-  background: #8a0012;
+  background: #b30017;
 }
 
 /* HEADINGS */
-h2 {
+h2, h5 {
   color: #7a000e;
   font-weight: 700;
 }

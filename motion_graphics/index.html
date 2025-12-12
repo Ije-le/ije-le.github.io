@@ -5,64 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kubwa Road Story – Animation Feature</title>
 
-  <!-- Bootstrap 5 -->
+  <!-- Bootstrap 5 CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 
-  <!-- HERO IMAGE -->
-  <header class="hero-image text-white d-flex align-items-center justify-content-center">
+  <!-- FEATURED HERO IMAGE -->
+  <header id="featured-image" class="hero-image d-flex align-items-center justify-content-center text-white mb-5">
     <div class="hero-text text-center">
       <h1 class="display-5 fw-bold">Kubwa’s ₦9.6 Million Road Story</h1>
       <p class="lead">An animation-driven data story</p>
     </div>
   </header>
 
-  <!-- MAIN CONTENT AREA -->
-  <main class="container content-wrapper my-5">
+  <!-- MAIN CONTENT -->
+  <main class="d-flex justify-content-center">
+    <div class="content-wrapper">
 
-    <section class="blog-post">
+      <section class="blog-post">
 
-      <div class="card shadow-sm border-0 rounded-4">
-        <div class="card-body fs-5 p-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <div class="card-body fs-5 p-4 text-center">
 
-          <!-- BLOG POST PARAGRAPHS BEFORE VIDEO -->
-          <p>[BLOG POST PARAGRAPH 1 GOES HERE]</p>
-          <p>[BLOG POST PARAGRAPH 2 GOES HERE]</p>
-          <p>[BLOG POST PARAGRAPH 3 GOES HERE]</p>
-          <p>[BLOG POST PARAGRAPH 4 GOES HERE]</p>
+            <!-- 5 PARAGRAPHS BEFORE VIDEO -->
+            <p>[BLOG POST PARAGRAPH 1]</p>
+            <p>[BLOG POST PARAGRAPH 2]</p>
+            <p>[BLOG POST PARAGRAPH 3]</p>
+            <p>[BLOG POST PARAGRAPH 4]</p>
+            <p>[BLOG POST PARAGRAPH 5]</p>
 
-          <!-- FIRST VIDEO: disappears on scroll -->
-          <div class="video-section sticky-video my-4 p-3 rounded">
-            <h5 class="mb-3 text-center">Watch the Animation</h5>
-            <div class="ratio ratio-16x9 d-flex justify-content-center align-items-center video-placeholder rounded">
-              <span class="fw-bold">[ANIMATION VIDEO GOES HERE]</span>
+            <!-- ANIMATION VIDEO -->
+            <div id="animation-video" class="video-section my-4 p-3 rounded">
+              <h5 class="mb-3">Watch the Animation</h5>
+              <div class="ratio ratio-16x9 d-flex justify-content-center align-items-center video-placeholder rounded">
+                <span class="fw-bold">[ANIMATION VIDEO GOES HERE]</span>
+              </div>
             </div>
+
+            <!-- 2 PARAGRAPHS AFTER VIDEO -->
+            <p>[BLOG POST PARAGRAPH 6]</p>
+            <p>[BLOG POST PARAGRAPH 7]</p>
+
           </div>
-
-          <!-- MIDDLE PARAGRAPHS -->
-          <p>[BLOG POST PARAGRAPH 5]</p>
-          <p>[BLOG POST PARAGRAPH 6]</p>
-          <p>[BLOG POST PARAGRAPH 7]</p>
-
-          <!-- SECOND VIDEO: reappears for last two paragraphs -->
-          <div class="video-section final-video my-4 p-3 rounded d-none">
-            <h5 class="mb-3 text-center">Watch the Animation Again</h5>
-            <div class="ratio ratio-16x9 d-flex justify-content-center align-items-center video-placeholder rounded">
-              <span class="fw-bold">[ANIMATION VIDEO GOES HERE]</span>
-            </div>
-          </div>
-
-          <!-- FINAL PARAGRAPHS -->
-          <p>[BLOG POST SECOND-TO-LAST PARAGRAPH GOES HERE]</p>
-          <p>[BLOG POST FINAL PARAGRAPH GOES HERE]</p>
-
         </div>
-      </div>
 
-    </section>
+      </section>
 
+    </div>
   </main>
 
   <!-- FOOTER -->
@@ -72,6 +64,5 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
-
 </body>
 </html>
