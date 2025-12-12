@@ -56,9 +56,9 @@
 
 /* PULLQUOTE-STYLE PARAGRAPHS */
 .blog-content p {
-  font-size: 1.8rem;
-  line-height: 2.4;
-  margin: 5rem 0;        /* vertical spacing */
+  font-size: 2rem;       /* bigger text */
+  line-height: 2.6;      /* more spacing */
+  margin: 6rem 0;        /* more vertical spacing */
   letter-spacing: 0.5px;
   color: #3a3a3a;
   font-weight: 500;
