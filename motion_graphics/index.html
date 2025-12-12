@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kubwa Road Story – Animation Feature</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kubwa Road Story – Animation Feature</title>
 
-    <!-- Bootstrap 5 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body>
 
-<body class="bg-light">
+  <!-- HERO IMAGE -->
+  <header class="hero-image text-white d-flex align-items-center justify-content-center">
+    <div class="hero-text text-center">
+      <h1 class="display-5 fw-bold">Kubwa’s ₦9.6 Million Road Story</h1>
+      <p class="lead">An animation-driven data story</p>
+    </div>
+  </header>
 
-    <!-- HEADER -->
-    <header class="text-white py-5 mb-5 red-header">
-        <div class="container text-center">
-            <h1 class="display-5 fw-bold">Kubwa’s ₦9.6 Million Road Story</h1>
-            <p class="lead">An animation-driven data story</p>
+  <!-- MAIN CONTENT AREA -->
+  <main class="container content-wrapper my-5">
+
+    <section class="blog-post">
+
+      <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-body fs-5 p-4">
+
+          <!-- BLOG POST PARAGRAPHS BEFORE VIDEO -->
+          <p>[BLOG POST PARAGRAPH 1 GOES HERE]</p>
+          <p>[BLOG POST PARAGRAPH 2 GOES HERE]</p>
+          <p>[BLOG POST PARAGRAPH 3 GOES HERE]</p>
+          <p>[BLOG POST PARAGRAPH 4 GOES HERE]</p>
+
+          <!-- FIRST VIDEO: disappears on scroll -->
+          <div class="video-section sticky-video my-4 p-3 rounded">
+            <h5 class="mb-3 text-center">Watch the Animation</h5>
+            <div class="ratio ratio-16x9 d-flex justify-content-center align-items-center video-placeholder rounded">
+              <span class="fw-bold">[ANIMATION VIDEO GOES HERE]</span>
+            </div>
+          </div>
+
+          <!-- MIDDLE PARAGRAPHS -->
+          <p>[BLOG POST PARAGRAPH 5]</p>
+          <p>[BLOG POST PARAGRAPH 6]</p>
+          <p>[BLOG POST PARAGRAPH 7]</p>
+
+          <!-- SECOND VIDEO: reappears for last two paragraphs -->
+          <div class="video-section final-video my-4 p-3 rounded d-none">
+            <h5 class="mb-3 text-center">Watch the Animation Again</h5>
+            <div class="ratio ratio-16x9 d-flex justify-content-center align-items-center video-placeholder rounded">
+              <span class="fw-bold">[ANIMATION VIDEO GOES HERE]</span>
+            </div>
+          </div>
+
+          <!-- FINAL PARAGRAPHS -->
+          <p>[BLOG POST SECOND-TO-LAST PARAGRAPH GOES HERE]</p>
+          <p>[BLOG POST FINAL PARAGRAPH GOES HERE]</p>
+
         </div>
-    </header>
+      </div>
 
-    <!-- MAIN CONTENT AREA CENTERED -->
-    <main class="d-flex justify-content-center">
-        <div class="content-wrapper">
+    </section>
 
-            <!-- BLOG POST -->
-            <section class="mb-5">
-                <h2 class="mb-4 text-center">Story & Reporting</h2>
+  </main>
 
-                <div class="card shadow-sm border-0 rounded-4">
-                    <div class="card-body fs-5 p-4">
+  <!-- FOOTER -->
+  <footer class="text-white text-center py-3 mt-4 red-footer">
+    <p class="mb-0">&copy; 2025 • Produced by Ijeoma Opara</p>
+  </footer>
 
-                        <!-- BLOG POST TEXT BEFORE VIDEO -->
-                        <p>[BLOG POST PARAGRAPH 1 GOES HERE]</p>
-                        <p>[BLOG POST PARAGRAPH 2 GOES HERE]</p>
-                        <p>[BLOG POST PARAGRAPH 3 GOES HERE]</p>
-                        <p>[BLOG POST PARAGRAPH 4 GOES HERE]</p>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 
-                        <!-- VIDEO TWO PARAGRAPHS BEFORE END -->
-                        <div class="video-box my-4 p-3 rounded">
-                            <h5 class="mb-3 text-center">Watch the Animation</h5>
-                            <div class="ratio ratio-16x9 d-flex justify-content-center align-items-center video-placeholder rounded">
-                                <span class="fw-bold">[ANIMATION VIDEO GOES HERE]</span>
-                            </div>
-                        </div>
-
-                        <!-- FINAL PARAGRAPHS -->
-                        <p>[BLOG POST SECOND-TO-LAST PARAGRAPH GOES HERE]</p>
-                        <p>[BLOG POST FINAL PARAGRAPH GOES HERE]</p>
-
-                    </div>
-                </div>
-            </section>
-
-        </div>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="text-white text-center py-3 mt-4 red-footer">
-        <p class="mb-0">&copy; 2025 • Produced by Ijeoma Opara</p>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

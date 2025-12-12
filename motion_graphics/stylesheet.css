@@ -1,48 +1,50 @@
-/* RED ACCENTS */
-.red-header {
-    background: #b30017; /* deep bold red */
+/* HERO IMAGE */
+.hero-image {
+  height: 60vh;
+  background-image: url('hero-image.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  position: sticky;
+  top: 0;
+  z-index: -1;
 }
 
-.red-footer {
-    background: #8a0012;
+.hero-text {
+  background: rgba(0,0,0,0.4);
+  padding: 20px 40px;
+  border-radius: 15px;
 }
 
-/* CENTER MAIN CONTENT AREA */
+/* MAIN CONTENT */
 .content-wrapper {
-    width: 100%;
-    max-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-/* VIDEO BOX */
-.video-box {
-    background: #fff5f5;
-    border-left: 6px solid #b30017;
-}
-
-.video-placeholder {
-    background: #f2dcdc;
-    color: #7a000e;
-}
-
-/* IMPROVE READABILITY */
 .card-body p {
-    line-height: 1.8;
-    margin-bottom: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
 }
 
-/* Make headings slightly elegant */
-h2 {
-    color: #7a000e;
-    font-weight: 700;
+/* VIDEO STYLING */
+.video-section {
+  background: #fff5f5;
+  border-left: 6px solid #b30017;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-/* Add soft card rounding */
-.card {
-    border-radius: 20px !important;
-}
-
-/* Slight shadow for depth */
-.card,
 .video-placeholder {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  background: #f2dcdc;
+  color: #7a000e;
+}
+
+/* FOOTER */
+.red-footer {
+  background: #8a0012;
+}
+
+/* HEADINGS */
+h2 {
+  color: #7a000e;
+  font-weight: 700;
 }
