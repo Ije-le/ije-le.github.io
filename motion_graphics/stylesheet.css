@@ -22,7 +22,7 @@
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-  z-index: 2; /* ensure it scrolls over hero */
+  z-index: 2; /* ensure content scrolls over hero */
 }
 
 .card-body {
@@ -30,9 +30,17 @@
   color: #222;
 }
 
+/* BLOG POST AS PULLQUOTE-STYLE PARAGRAPHS */
 .card-body p {
-  line-height: 1.8;
-  margin-bottom: 1.5rem;
+  font-size: 1.6rem;       /* larger text for scrolling impact */
+  line-height: 2.2;        /* generous spacing */
+  margin: 4rem 0;          /* vertical spacing to slow scroll timing */
+  letter-spacing: 0.5px;   /* subtle spacing for readability */
+  color: #3a3a3a;          /* soft dark grey, easier on eyes than black */
+  font-weight: 500;
+  max-width: 90%;          /* narrow for emphasis */
+  margin-left: auto;
+  margin-right: auto;      /* center paragraphs */
 }
 
 /* VIDEO STYLING */
@@ -40,6 +48,7 @@
   background: #fff0f0;
   border-left: 6px solid #b30017;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin: 6rem 0;          /* extra space before video appears */
 }
 
 .video-placeholder {
