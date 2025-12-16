@@ -45,7 +45,7 @@
 
 /* MAIN CONTENT */
 .blog-content {
-  width: 50%;          /* span full page width */
+  width: 100%;          /* span full page width */
   padding-left: 2rem;   /* some breathing room on sides */
   padding-right: 2rem;
   color: #222;
