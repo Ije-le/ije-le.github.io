@@ -11,7 +11,7 @@
   transition: opacity 0.8s ease; /* For fading */
 /*}*/
 .hero-image {
-  height: 60vh;
+  height: 100vh;
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.55),
