@@ -122,3 +122,53 @@ h2, h5 {
 h1 {
     font-weight: 700;
 }
+
+/* =========================
+   MOBILE OPTIMIZATION
+   ========================= */
+
+@media (max-width: 768px) {
+
+  /* HERO IMAGE */
+  .hero-image {
+    height: 85vh;               /* not overwhelming */
+    position: relative;         /* disable sticky on mobile */
+  }
+
+  /* HERO TEXT */
+  .hero-text {
+    padding: 16px 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  /* BLOG CONTENT */
+  .blog-content {
+    padding: 0 1rem;
+  }
+
+  /* PARAGRAPHS */
+  .blog-content p {
+    font-size: 1.25rem;
+    line-height: 2;
+    margin: 3rem auto;
+    padding: 0;                 /* remove veil padding */
+    background: none;           /* NO overlay on mobile */
+    backdrop-filter: none;
+    max-width: 100%;
+  }
+
+  /* VIDEO SECTION */
+  .video-section {
+    margin: 4rem auto;
+    padding: 1rem;
+    border-left: 4px solid #b30017;
+  }
+
+}
