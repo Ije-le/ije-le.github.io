@@ -1,7 +1,7 @@
 /* FEATURED HERO IMAGE */
 .hero-image {
   height: 60vh;
-  background-image: url('hero-image.jpg'); /* Replace with your featured image */
+  background-image: url('https://ije-le.github.io/motion_graphics/city_gate.jpg'); /* Replace with your featured image */
   background-size: cover;
   background-position: center;
   position: sticky;
