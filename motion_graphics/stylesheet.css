@@ -1,15 +1,32 @@
 /* FEATURED HERO IMAGE */
-.hero-image {
+/*.hero-image {
   height: 60vh;
   background-image: url('https://ije-le.github.io/motion_graphics/city_gate.jpg'); /* Replace with your featured image */
-  background-size: cover;
+  /*background-size: cover;
   background-position: center;
   position: sticky;
   top: 0;
   z-index: 1;
   display: flex;
   transition: opacity 0.8s ease; /* For fading */
+/*}*/
+.hero-image {
+  height: 60vh;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url('https://ije-le.github.io/motion_graphics/city_gate.jpg'); /* adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  transition: opacity 0.8s ease;
 }
+
 
 .hero-text {
   background: rgba(0,0,0,0.4);
@@ -53,6 +70,9 @@
   text-align: center;
   position: relative;
   z-index: 1;
+  background: rgba(255, 255, 255, 0.78); /* soft veil */
+  backdrop-filter: blur(2px);           /* modern browsers */
+  border-radius: 6px;
 }
 
 
