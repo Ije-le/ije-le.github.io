@@ -14,11 +14,27 @@ body {
   justify-content: center; /* centers container horizontally */
   padding: 3rem 1rem;
 }
+.resume-bg {
+  background-color: #8B5E3C; /* warm brown wood color */
+  background-image: 
+    radial-gradient(rgba(0,0,0,0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 4px 4px, 40px 40px; /* subtle grain pattern */
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
 
 /* Container */
 .resume-container {
-  max-width: 780px; /* controls width of resume content */
+  max-width: 780px;
   width: 100%;
+  background-color: #f6f4ef; /* off-white page */
+  padding: 3rem 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35); /* floating effect */
+  border-radius: 6px; /* soft corners */
 }
 
 /* Header */
@@ -93,4 +109,14 @@ ul li {
   width: 80px;
   margin: 0 auto;
   border-top: 1px solid #ccc;
+}
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .resume-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .resume-bg {
+    padding: 2rem 1rem;
+  }
 }
