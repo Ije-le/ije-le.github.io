@@ -32,6 +32,8 @@ body {
   max-width: 780px;
   width: 100%;
   background-color: #f6f4ef; /* off-white page */
+  background-image: radial-gradient(rgba(0,0,0,0.025) 1px, transparent 1px);
+  background-size: 4px 4px;
   padding: 3rem 2rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.35); /* floating effect */
   border-radius: 6px; /* soft corners */
@@ -110,6 +112,16 @@ ul li {
   margin: 0 auto;
   border-top: 1px solid #ccc;
 }
+
+/* Footer */
+.resume-footer {
+  background-color: #e0dfda; /* subtle warm gray */
+  color: #555;
+  font-size: 0.85rem;
+  border-top: 1px solid #ccc; /* light separation line */
+  border-radius: 0 0 6px 6px; /* match resume container corners */
+}
+
 /* Responsive adjustments */
 @media (max-width: 576px) {
   .resume-header h1 {
