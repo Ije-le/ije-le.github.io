@@ -1,7 +1,4 @@
-/* ----------------------------------
-   Base document styling
----------------------------------- */
-
+/* Base */
 body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: #f6f4ef;
@@ -11,55 +8,34 @@ body {
   );
   background-size: 4px 4px;
   color: #1c1c1c;
-  line-height: 1.6;
-}
+    }
 
-/* ----------------------------------
-   Centered resume wrapper
----------------------------------- */
-
-.resume-wrapper {
-  min-height: 100vh;
-  padding: 3rem 1rem;
-}
-
-/* ----------------------------------
-   Resume container (page)
----------------------------------- */
-
+/* Container */
 .resume-container {
-  max-width: 780px;
-  width: 100%;
+  max-width: 820px;
+  padding: 4rem 1.5rem;
 }
 
-/* ----------------------------------
-   Masthead
----------------------------------- */
-
-.masthead-name {
-  font-size: 2.2rem;
+/* Header */
+.resume-header h1 {
+  font-size: 2rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 0.25rem;
 }
 
 .contact {
   font-size: 0.9rem;
-  color: #555;
+  color: #666;
 }
 
-/* Divider under masthead */
-.masthead-divider {
-  width: 90px;
-  margin: 0 auto 1.5rem auto;
-  border: none;
-  border-top: 1px solid #cfcfcf;
-}
-
-/* ----------------------------------
-   Sections
----------------------------------- */
-
+/* Sections */
 .resume-section {
   margin-top: 2.5rem;
 }
@@ -73,12 +49,9 @@ body {
   margin-bottom: 1rem;
 }
 
-/* ----------------------------------
-   Items (jobs, projects, education)
----------------------------------- */
-
+/* Items */
 .item {
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5rem;
 }
 
 .item h3 {
@@ -87,49 +60,25 @@ body {
   margin-bottom: 0.2rem;
 }
 
-/* Meta text (dates, orgs, etc.) */
 .meta {
   font-size: 0.85rem;
   color: #666;
-}
-
-/* ----------------------------------
-   Lists
----------------------------------- */
-
-ul {
-  padding-left: 1.1rem;
-  margin-top: 0.5rem;
-}
-
-ul li {
-  font-size: 0.95rem;
-  margin-bottom: 0.35rem;
-}
-
-/* ----------------------------------
-   Typography helpers
----------------------------------- */
-
-p {
-  font-size: 0.95rem;
   margin-bottom: 0.5rem;
 }
 
-strong {
-  font-weight: 600;
+/* Lists */
+ul {
+  padding-left: 1.1rem;
+    }
+
+ul li {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
 }
 
-/* ----------------------------------
-   Responsive adjustments
----------------------------------- */
-
-@media (max-width: 576px) {
-  .masthead-name {
-    font-size: 1.8rem;
-  }
-
-  .resume-wrapper {
-    padding: 2rem 1rem;
-  }
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
 }
