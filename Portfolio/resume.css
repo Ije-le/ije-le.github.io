@@ -15,7 +15,7 @@ body {
   padding: 3rem 1rem;
 }
 .resume-bg {
-  background-color: #8B5E3C; /* warm brown wood color */
+  background-color: #000000; /* black */
   background-image: 
     radial-gradient(rgba(0,0,0,0.015) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
