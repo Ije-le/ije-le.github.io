@@ -82,8 +82,15 @@ ul li {
 }
 
 /* Divider */
-hr {
+/*hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 2rem 0;
+}
+*/
+/* Divider under masthead */
+.masthead-divider {
+  width: 80px;
+  margin: 0 auto;
+  border-top: 1px solid #ccc;
 }
