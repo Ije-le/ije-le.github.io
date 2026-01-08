@@ -141,8 +141,14 @@ ul li {
 }
 
 .home-nav a:hover {
-  color: #b00000; /* Fisayo red */
+  color: #b00000; 
 }
+
+.home-nav a.active {
+  color: #b00000;       
+  font-weight: 500;
+}
+
 
 /* About container */
 .about-wrapper {
