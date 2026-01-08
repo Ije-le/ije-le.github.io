@@ -114,15 +114,71 @@ ul li {
   border-top: 2px solid #999; /* darker gray and thicker */
 }
 
-/* Footer */
-.bg-footer {
-  width: 100%;
-  background-color: #b00000; /* strong red */
-  color: #fff; /* white text for contrast */
-  font-size: 0.9rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+/* Base background — Fisayo-inspired */
+.home-bg {
+  background-color: #0f0f0f; /* deep near-black */
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+  color: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* Navigation (subtle, restrained) */
+.home-nav {
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-nav a {
+  color: #bbbbbb;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.home-nav a:hover {
+  color: #b00000; /* Fisayo red */
+}
+
+/* About container */
+.about-wrapper {
+  max-width: 680px;
+}
+
+/* Name masthead */
+.home-name {
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+/* About text — Kofo calmness */
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: #d6d6d6;
+}
+
+/* Resume CTA */
+.resume-btn {
+  padding: 0.75rem 2.2rem;
+  border: 2px solid #b00000;
+  color: #b00000;
+  background: transparent;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+.resume-btn:hover {
+  background-color: #b00000;
+  color: #ffffff;
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 576px) {
