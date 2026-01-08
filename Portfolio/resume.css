@@ -200,8 +200,15 @@ ul li {
 }
 
 .contact-links a:hover {
-  color: #b00000; /* Fisayo red */
+  color: #b00000; 
 }
+.about-photo {
+  width: 200px;       /* medium size */
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #b00000;
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 576px) {
@@ -226,6 +233,8 @@ ul li {
   .home-nav a {
     display: inline-block;
     margin: 0.5rem 0.75rem;
+    color: #b00000; 
+    font-weight: 500;
   }
 
   .contact-section {
