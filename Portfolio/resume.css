@@ -212,4 +212,23 @@ ul li {
   .resume-bg {
     padding: 2rem 1rem;
   }
+/* Home page */
+  .home-name {
+    font-size: 2.2rem;
+    letter-spacing: 0.04em;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .home-nav a {
+    display: inline-block;
+    margin: 0.5rem 0.75rem;
+  }
+
+  .contact-section {
+    font-size: 0.9rem;
+  }
 }
