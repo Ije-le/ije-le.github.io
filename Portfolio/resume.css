@@ -147,11 +147,12 @@ ul li {
 /* About container */
 .about-wrapper {
   max-width: 680px;
+  margin-top: 6vh; /* pushes content downward subtly */
 }
 
 /* Name masthead */
 .home-name {
-  font-size: 2.6rem;
+  font-size: 3.2rem; /* bigger, but still elegant */
   font-weight: 600;
   letter-spacing: 0.06em;
 }
@@ -179,6 +180,28 @@ ul li {
   color: #ffffff;
 }
 
+/* Contact section */
+.contact-section {
+  font-size: 0.95rem;
+  color: #bdbdbd;
+}
+
+.contact-label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.contact-links a {
+  color: #bdbdbd;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-links a:hover {
+  color: #b00000; /* Fisayo red */
+}
 
 /* Responsive adjustments */
 @media (max-width: 576px) {
