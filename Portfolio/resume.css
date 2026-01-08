@@ -152,9 +152,9 @@ ul li {
 
 /* Name masthead */
 .home-name {
-  font-size: 3.2rem; /* bigger, but still elegant */
+  font-size: 2.5rem; /* bigger, but still elegant */
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
 }
 
 /* About text — Kofo calmness */
