@@ -273,7 +273,7 @@ ul li {
 /* Stack */
 .paper-stack {
   position: relative;
-  padding-left: 1rem;
+  /*padding-left: 1rem;*/
 }
 
 .paper {
