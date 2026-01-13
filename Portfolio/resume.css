@@ -1,7 +1,7 @@
 /* Base */
 body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #c4a484;
+  background-color: #f6f4ef;
   background-image: radial-gradient(
     rgba(0, 0, 0, 0.025) 1px,
     transparent 1px
@@ -31,7 +31,7 @@ body {
 .resume-container {
   max-width: 780px;
   width: 100%;
-  background-color: #f6f4ef; /* off-white page */
+  background-color: #c27e79; /* off-white page */
   background-image: radial-gradient(rgba(0,0,0,0.025) 1px, transparent 1px);
   background-size: 4px 4px;
   padding: 3rem 2rem;
