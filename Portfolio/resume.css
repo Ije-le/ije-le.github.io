@@ -285,13 +285,13 @@ ul li {
   position: relative;
 }
 
-/* Offset illusion */
+/* Offset illusion 
 .paper:nth-child(2) {
   transform: translate(12px, -10px);
 }
 .paper:nth-child(3) {
   transform: translate(22px, -10px);
-}
+}*/
 
 /* Paper text */
 .paper h3 {
