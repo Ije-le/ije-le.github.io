@@ -214,6 +214,110 @@ ul li {
   object-fit: cover;
   border: 3px solid #b00000;
 }
+/* =========================
+   Essays & Reflections Page
+========================= */
+
+.site-nav {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.site-nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.site-nav a.active {
+  color: #b83a2d;
+}
+
+/* Page */
+.essay-page {
+  max-width: 900px;
+  margin: 0 auto 5rem;
+  background-color: #f6f4ef;
+  padding: 4rem 3rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+/* Header */
+.essay-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.essay-header p {
+  max-width: 520px;
+  color: #555;
+}
+
+/* Sections */
+.essay-stack {
+  margin-top: 4rem;
+}
+
+.essay-stack h2 {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+/* Stack */
+.paper-stack {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.paper {
+  background: #fff;
+  padding: 1.5rem 1.6rem;
+  width: 85%;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+
+/* Offset illusion */
+.paper:nth-child(2) {
+  transform: translate(12px, -10px);
+}
+.paper:nth-child(3) {
+  transform: translate(22px, -18px);
+}
+
+/* Paper text */
+.paper h3 {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.paper a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.paper a:hover {
+  text-decoration: underline;
+}
+
+.paper-meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.paper-desc {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
 
 
 /* Responsive adjustments */
@@ -246,121 +350,17 @@ ul li {
   .contact-section {
     font-size: 0.9rem;
   }
-}
-/* =========================
-   Writing Page
-========================= */
+  .paper {
+    width: 100%;
+  }
 
-.writing-container {
-  max-width: 900px;
-  background-color: #f6f4ef;
-  padding: 3.5rem 2.5rem;
-  margin-bottom: 4rem;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
-  border-radius: 6px;
-}
+  .paper:nth-child(2),
+  .paper:nth-child(3) {
+    transform: none;
+  }
 
-/* Header */
-.writing-header h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.writing-intro {
-  color: #555;
-  max-width: 600px;
-}
-
-/* Grid */
-.writing-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 2.5rem;
-  margin-top: 3rem;
-}
-
-/* Cards */
-.writing-card {
-  background-color: #fff;
-  padding: 1.75rem 1.5rem;
-  border-radius: 4px;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
-  position: relative;
-  transform: translateY(0);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.writing-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
-}
-
-/* Slight “peeking” offset */
-.writing-card:nth-child(2) {
-  transform: translateY(8px);
-}
-.writing-card:nth-child(3) {
-  transform: translateY(14px);
-}
-
-/* Featured */
-.writing-card.featured {
-  background-color: #fdfbf6;
-  border-left: 4px solid #b83a2d; /* Fisayo color nod */
-}
-
-/* Text */
-.writing-card h2 {
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin: 0.75rem 0;
-}
-
-.writing-card a {
-  text-decoration: none;
-  color: #1c1c1c;
-}
-
-.writing-card a:hover {
-  text-decoration: underline;
-}
-
-.writing-snippet {
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* Tags */
-.writing-tag {
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #777;
-}
-
-/* Nav */
-.nav-link-custom {
-  color: #ddd;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
-
-.nav-link-custom:hover {
-  color: #fff;
-}
-
-.nav-link-custom.active {
-  color: #b83a2d;
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-  .writing-container {
+  .essay-page {
     padding: 2.5rem 1.5rem;
   }
 
-  .writing-header h1 {
-    font-size: 1.8rem;
-  }
 }
