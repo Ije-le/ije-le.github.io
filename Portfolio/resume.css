@@ -355,6 +355,7 @@ ul li {
 
 /* Text */
 .project-cell h2 {
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.15rem;
   font-weight: 500;
   font-style: italic;
