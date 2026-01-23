@@ -326,6 +326,12 @@ ul li {
   margin-top: 3rem;
 }
 
+/* Projects – Capabilities layout */
+
+.projects-capabilities {
+  margin-top: 3rem;
+}
+
 /* Capability boxes */
 .capability-box {
   background-color: #f6f4ef;
@@ -366,7 +372,6 @@ ul li {
   font-weight: 400;
   color: #777;
 }
-
 
 
 /* Responsive adjustments */
