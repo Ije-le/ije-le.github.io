@@ -516,7 +516,7 @@ ul li {
     grid-template-rows: repeat(4, 1fr);
     height: auto;
   }
-  
+
   .investigations-container {
     padding: 3rem 4vw;
   }
@@ -527,6 +527,7 @@ ul li {
 
   .investigation-desc {
     font-size: 0.9rem;
+    color: #eee;
   }
   
 
