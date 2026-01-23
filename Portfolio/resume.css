@@ -320,6 +320,53 @@ ul li {
   color: #555;
   margin-top: 0.5rem;
 }
+/* Projects – Capabilities layout */
+
+.projects-capabilities {
+  margin-top: 3rem;
+}
+
+/* Capability boxes */
+.capability-box {
+  background-color: #f6f4ef;
+  padding: 2rem;
+  border-radius: 8px;
+  height: 100%;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+/* Hover effect (calm, not flashy) */
+.capability-box:hover {
+  background-color: #efece4;
+  transform: translateY(-2px);
+}
+
+/* Titles */
+.capability-box h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+/* Body text */
+.capability-box p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+/* Meta text */
+.capability-meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Muted label */
+.muted {
+  font-weight: 400;
+  color: #777;
+}
+
 
 
 /* Responsive adjustments */
@@ -363,6 +410,10 @@ ul li {
 
   .essay-page {
     padding: 2.5rem 1.5rem;
+  }
+
+  .projects-capabilities {
+    margin-top: 2rem;
   }
 
 }
