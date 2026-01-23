@@ -437,7 +437,7 @@ ul li {
 /* Title links */
 .investigation-item h2 a {
   text-decoration: none;
-  color: #111;
+  color: #9e9d9b;
   transition: color 0.25s ease;
 }
 
@@ -449,14 +449,14 @@ ul li {
 /* Meta text */
 .investigation-meta {
   font-size: 0.85rem;
-  color: #666;
+  color: #ddd;
   margin-bottom: 0.4rem;
 }
 
 /* Description text */
 .investigation-desc {
   font-size: 0.95rem;
-  color: #111;
+  color: #eee;
   line-height: 1.5;
 }
 
