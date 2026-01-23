@@ -395,6 +395,59 @@ ul li {
   color: #f6f4ef;
 }
 
+/* =========================
+   INVESTIGATIONS PAGE
+========================= */
+
+.investigations-list {
+  margin-top: 3rem;
+}
+
+/* Individual item */
+.investigation-item {
+  margin-bottom: 2.5rem;
+}
+
+/* Titles */
+.investigation-item h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+/* Title links */
+.investigation-item h2 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.investigation-item h2 a:hover {
+  text-decoration: underline;
+}
+
+/* Meta */
+.investigation-meta {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+/* Description */
+.investigation-desc {
+  font-size: 0.95rem;
+  color: #111;
+  max-width: 90%;
+}
+
+/* Muted future item */
+.investigation-item.muted {
+  opacity: 0.6;
+}
+
+
+
 /* Responsive adjustments */
 @media (max-width: 576px) {
   .resume-header h1 {
