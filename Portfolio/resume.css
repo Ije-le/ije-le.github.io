@@ -355,17 +355,22 @@ ul li {
 
 /* Text */
 .project-cell h2 {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 500;
+  font-style: italic;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #111;
-  margin: 0;
+  margin-bottom: 0.4rem;
   transition: color 0.3s ease;
 }
 
 .project-cell p {
-  transition: color 0.3s ease;
+  font-size: 0.85rem;
+  font-style: normal;
+  color: #111; /* black, not muted */
+  margin: 0;
+  line-height: 1.4;
 }
 
 /* Hover effect */
@@ -383,13 +388,10 @@ ul li {
   outline-offset: -2px;
 }
 
-/* Mobile behavior: stack */
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    height: auto;
-  }
+/* Hover text color */
+.project-cell:hover h2,
+.project-cell:hover p {
+  color: #f6f4ef;
 }
 
 /* Responsive adjustments */
@@ -440,5 +442,6 @@ ul li {
     grid-template-rows: repeat(4, 1fr);
     height: auto;
   }
+  
 
 }
