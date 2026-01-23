@@ -320,57 +320,63 @@ ul li {
   color: #555;
   margin-top: 0.5rem;
 }
-/* Projects – Capabilities layout */
+/* =========================
+   PROJECTS — QUADRANT LAYOUT
+========================= */
 
-.projects-capabilities {
-  margin-top: 3rem;
+/* Bigger stage so it dominates the background */
+.projects-stage {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* Projects – Capabilities layout */
-
-.projects-capabilities {
-  margin-top: 3rem;
+/* Grid container */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #000; /* lines color */
+  gap: 1px; /* thickness of cross lines */
+  height: 70vh;
+  min-height: 500px;
 }
 
-/* Capability boxes */
-.capability-box {
-  background-color: #f6f4ef;
-  padding: 2rem;
-  border-radius: 8px;
-  height: 100%;
-  transition: background-color 0.25s ease, transform 0.25s ease;
+/* Individual quadrants */
+.project-cell {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover effect (calm, not flashy) */
-.capability-box:hover {
-  background-color: #efece4;
-  transform: translateY(-2px);
-}
-
-/* Titles */
-.capability-box h3 {
+/* Text */
+.project-cell h2 {
   font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #111;
+  margin: 0;
 }
 
-/* Body text */
-.capability-box p {
-  font-size: 0.95rem;
-  color: #333;
-  margin-bottom: 0.75rem;
+/* Hover effect */
+.project-cell:hover {
+  background-color: #000;
 }
 
-/* Meta text */
-.capability-meta {
-  font-size: 0.85rem;
-  color: #666;
+.project-cell:hover h2 {
+  color: #f6f4ef;
 }
 
-/* Muted label */
-.muted {
-  font-weight: 400;
-  color: #777;
+/* Mobile behavior: stack */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    height: auto;
+  }
 }
 
 /* Responsive adjustments */
@@ -416,8 +422,10 @@ ul li {
     padding: 2.5rem 1.5rem;
   }
 
-  .projects-capabilities {
-    margin-top: 2rem;
+  .projects-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    height: auto;
   }
 
 }
