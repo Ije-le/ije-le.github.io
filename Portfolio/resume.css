@@ -344,11 +344,13 @@ ul li {
 
 /* Individual quadrants */
 .project-cell {
-  background-color: #ffffff;
+  background-color: #f3efef;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Text */
@@ -359,6 +361,11 @@ ul li {
   text-transform: uppercase;
   color: #111;
   margin: 0;
+  transition: color 0.3s ease;
+}
+
+.project-cell p {
+  transition: color 0.3s ease;
 }
 
 /* Hover effect */
@@ -368,6 +375,12 @@ ul li {
 
 .project-cell:hover h2 {
   color: #f6f4ef;
+}
+
+/* Remove default link focus outline but keep accessibility */
+.project-cell:focus {
+  outline: 2px solid #000;
+  outline-offset: -2px;
 }
 
 /* Mobile behavior: stack */
