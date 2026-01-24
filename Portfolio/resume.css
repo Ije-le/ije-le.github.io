@@ -478,7 +478,7 @@ ul li {
 
 /* Motion Graphics background */
 .motion-bg {
-  background-color: #eaeaea; /* light gray */
+  background-color: #3b3f62; /* light gray */
   background-image: radial-gradient(rgba(0,0,0,0.01) 1px, transparent 1px);
   background-size: 4px 4px;
   color: #111;
