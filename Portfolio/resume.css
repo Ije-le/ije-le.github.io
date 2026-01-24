@@ -476,6 +476,34 @@ ul li {
   color: #111; /* make text readable */
 }
 
+/* Motion Graphics background */
+.motion-bg {
+  background-color: #eaeaea; /* light gray */
+  background-image: radial-gradient(rgba(0,0,0,0.01) 1px, transparent 1px);
+  background-size: 4px 4px;
+  color: #111;
+}
+
+/* Video thumbnail styling */
+.video-thumb {
+  margin: 0.8rem 0;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.video-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.25s ease;
+}
+
+.video-thumb img:hover {
+  transform: scale(1.03); /* subtle zoom effect */
+}
+
 
 
 /* Responsive adjustments */
