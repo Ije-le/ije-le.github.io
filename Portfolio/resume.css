@@ -505,7 +505,7 @@ ul li {
 }
 /* News Apps page background */
 .newsapps-bg {
-  background-color: #dce4f0; /* pale blue for differentiation */
+  background-color: #826b69; /* pale blue for differentiation */
   background-image: radial-gradient(rgba(0,0,0,0.01) 1px, transparent 1px);
   background-size: 4px 4px;
   color: #111;
