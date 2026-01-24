@@ -478,7 +478,7 @@ ul li {
 
 /* Motion Graphics background */
 .motion-bg {
-  background-color: #3b3f62; /* light gray */
+  background-color: #54576d;
   background-image: radial-gradient(rgba(0,0,0,0.01) 1px, transparent 1px);
   background-size: 4px 4px;
   color: #111;
@@ -503,6 +503,14 @@ ul li {
 .video-thumb img:hover {
   transform: scale(1.03); /* subtle zoom effect */
 }
+/* News Apps page background */
+.newsapps-bg {
+  background-color: #dce4f0; /* pale blue for differentiation */
+  background-image: radial-gradient(rgba(0,0,0,0.01) 1px, transparent 1px);
+  background-size: 4px 4px;
+  color: #111;
+}
+
 
 
 
