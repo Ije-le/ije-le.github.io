@@ -467,7 +467,7 @@ ul li {
 
 /* Data Stories background */
 .data-stories-bg {
-  background-color: #f2f2f2; /* light gray */
+  background-color: #393737; /* light gray */
   background-image: radial-gradient(
     rgba(0, 0, 0, 0.01) 1px,
     transparent 1px
