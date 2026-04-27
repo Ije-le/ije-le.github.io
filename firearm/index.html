@@ -2,127 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Scrollytelling Story</title>
+  <title>Story</title>
 
-  <!-- Bootstrap -->
+  <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <!-- HERO -->
 <header class="hero">
-  <div class="hero-overlay container">
-    <h1 class="headline">Your Headline</h1>
-    <h2 class="subtitle">Your subtitle scrolls over the image</h2>
+  <div class="hero-text">
+    <h1>Headline here</h1>
+    <h2>Subtitle</h2>
   </div>
 </header>
 
-<!-- INTRO TEXT -->
-<section class="content">
+<!-- DARK SECTION -->
+<section class="dark">
 
-  <div class="scrolly">
-    <article class="step"><div class="text-box"><p>P1</p></div></article>
-    <article class="step"><div class="text-box"><p>P2</p></div></article>
+  <div class="step"><div class="box"><p>On Wednesday, April 2, 2025, Montgomery County Department of Police dispatched officials to a building in Chevy Chase, where a married couple lay dead with gunshot wounds.</p></div></div>
 
-    <article class="step">
-      <div class="pullquote"><p>“Quote goes here.”</p></div>
-    </article>
-  </div>
+  <div class="step"><div class="box"><p>The police published a news release five days later saying officials found a gun and ammunition nearby, and the bodies had been transported to the chief medical examiner in Baltimore for autopsy.</p></div></div>
 
-</section>
-
-<!-- GRAPH 1 SECTION -->
-<section class="graphic-section">
-
-  <div class="graphic">
-    <img src="linegraph1.png" class="img-fluid">
-    <div class="overlay"></div>
-  </div>
-
-  <div class="scrolly">
-    <article class="step"><div class="text-box"><p>P3</p></div></article>
-    <article class="step"><div class="text-box"><p>P4</p></div></article>
-    <article class="step"><div class="text-box"><p>P5</p></div></article>
-    <article class="step"><div class="text-box"><p>P6</p></div></article>
-  </div>
-
-</section>
-
-<!-- GRAPH 2 SECTION -->
-<section class="graphic-section">
-
-  <div class="graphic">
-    <img src="linegraph2.png" class="img-fluid">
-  </div>
-
-  <div class="scrolly">
-    <article class="step"><div class="text-box"><p>P7</p></div></article>
-  </div>
-
-</section>
-
-<!-- MORE TEXT -->
-<section class="content">
-  <div class="scrolly">
-    <article class="step"><div class="text-box"><p>P8</p></div></article>
-    <article class="step"><div class="text-box"><p>P9</p></div></article>
-    <article class="step"><div class="text-box"><p>P10</p></div></article>
-  </div>
-</section>
-
-<!-- CHOROPLETH -->
-<section class="container my-5">
-  <div class="row g-3 justify-content-center">
-    <div class="col-md-6">
-      <img src="map1.png" class="img-fluid rounded">
-    </div>
-    <div class="col-md-6">
-      <img src="map2.png" class="img-fluid rounded">
+  <!-- QUOTE -->
+  <div class="step">
+    <div class="speech">
+      <p>“The manner of death for Kate Simoni Fralin was determined to be a homicide,” the police noted in the release. “While the official cause and manner of death for William Scott Fralin are pending, his death is being investigated as a suicide.”</p>
     </div>
   </div>
+
+  <div class="step"><div class="box"><p>Shiera Goff, director of public information for the police department, told Capital News Service on Tuesday that the case is now closed and was ruled as a murder-suicide.</p></div></div>
+
+</section>
+
+<!-- IMAGE SECTION (250 PEOPLE) -->
+<section class="image-section">
+  <div class="image-bg"></div>
+
+  <div class="scroll-text">
+    <div class="step"><div class="box"><p>Like the Fralin couple, nearly 5400 people in Maryland have lost their lives to homicides and suicides involving firearms between 2018 and 2024, according to the Centers for Disease Control and Prevention.</p></div></div>
+    <div class="step"><div class="box"><p>Firearm-related suicides and homicides in the state spiked during COVID and stayed high throughout 2021. In 2022, the figures started to drop. But while homicides continued to decline, suicides resumed the climb in 2024.</p></div></div>
+    <div class="step"><div class="box"><p>Preliminary data from Maryland’s department of health shows that this trend persisted in 2025.</p></div></div>
+  </div>
+</section>
+
+<!-- GRAPH 1 -->
+<section class="graph">
+  <img src="graph1.png" class="img-fluid">
+</section>
+
+<div class="step dark"><div class="box"><p>It reflects a pattern</p></div></div>
+
+<!-- GRAPH 2 -->
+<section class="graph">
+  <img src="graph2.png" class="img-fluid">
 </section>
 
 <!-- FINAL TEXT -->
-<section class="content">
-  <div class="scrolly">
-    <article class="step"><div class="text-box"><p>P11</p></div></article>
-    <article class="step"><div class="text-box"><p>Dorchester County</p></div></article>
-    <article class="step"><div class="text-box"><p>More Dorchester</p></div></article>
-    <article class="step"><div class="text-box"><p>Advocate opinion</p></div></article>
+<section class="dark">
+
+  <div class="step"><div class="box"><p>Data says it has happened for years</p></div></div>
+  <div class="step"><div class="box"><p>People disagree.</p></div></div>
+  <div class="step"><div class="box"><p>But they are beginning to see</p></div></div>
+  <div class="step"><div class="box"><p>Rates are beginning to climb.</p></div></div>
+
+</section>
+
+<!-- CHOROPLETH (EMBEDS + BOOTSTRAP) -->
+<section class="container my-5">
+  <div class="row g-3">
+
+    <div class="col-md-6">
+      <div class="embed-box">
+        <iframe src="MAP1_URL"></iframe>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="embed-box">
+        <iframe src="MAP2_URL"></iframe>
+      </div>
+    </div>
+
   </div>
 </section>
 
-<!-- JS -->
-<script>
-/* STEP ACTIVATION */
-const steps = document.querySelectorAll(".step");
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    entry.target.classList.toggle("active", entry.isIntersecting);
-  });
-}, { threshold: 0.5 });
-
-steps.forEach(step => observer.observe(step));
-
-/* GRAPH 1 OVERLAY CONTROL */
-const graphSection = document.querySelector(".graphic-section");
-const overlay = document.querySelector(".overlay");
-
-const graphObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      overlay.style.background = "rgba(50,50,50,0.5)";
-    } else {
-      overlay.style.background = "rgba(50,50,50,0)";
-    }
-  });
-}, { threshold: 0.6 });
-
-if (overlay) graphObserver.observe(graphSection);
-</script>
+<!-- FINAL -->
+<section class="dark">
+  <div class="step"><div class="box"><p>Dorchester too</p></div></div>
+  <div class="step"><div class="box"><p>Legislators are serious now.</p></div></div>
+  <div class="step"><div class="box"><p>Policy expert</p></div></div>
+</section>
 
 </body>
 </html>
