@@ -3,63 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <title>Scrollytelling Story</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<!-- HERO SECTION -->
-<section class="hero">
-  <div class="hero-overlay">
-    <h1 class="headline">Your Headline Goes Here</h1>
-    <h2 class="subtitle">Your subtitle scrolls past the image</h2>
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-overlay container">
+    <h1 class="headline">Your Headline</h1>
+    <h2 class="subtitle">Your subtitle scrolls over the image</h2>
   </div>
-</section>
+</header>
 
-<!-- STORY CONTENT -->
+<!-- INTRO TEXT -->
 <section class="content">
 
-  <div class="text-box">Paragraph 1</div>
-  <div class="text-box">Paragraph 2</div>
+  <div class="scrolly">
+    <article class="step"><div class="text-box"><p>P1</p></div></article>
+    <article class="step"><div class="text-box"><p>P2</p></div></article>
 
-  <!-- PULLQUOTE -->
-  <div class="pullquote">
-    “This is a powerful quote that deserves emphasis.”
+    <article class="step">
+      <div class="pullquote"><p>“Quote goes here.”</p></div>
+    </article>
   </div>
 
-  <div class="text-box">Paragraph 3</div>
-  <div class="text-box">Paragraph 4</div>
-  <div class="text-box">Paragraph 5</div>
-  <div class="text-box">Paragraph 6</div>
+</section>
 
-  <!-- FIRST GRAPH (STICKY + OVERLAY) -->
-  <div class="sticky-graph" id="graph1">
-    <img src="linegraph1.png" alt="Line graph">
+<!-- GRAPH 1 SECTION -->
+<section class="graphic-section">
+
+  <div class="graphic">
+    <img src="linegraph1.png" class="img-fluid">
     <div class="overlay"></div>
   </div>
 
-  <div class="text-box">Paragraph 7</div>
-
-  <!-- SECOND GRAPH -->
-  <div class="sticky-graph" id="graph2">
-    <img src="linegraph2.png" alt="Line graph">
+  <div class="scrolly">
+    <article class="step"><div class="text-box"><p>P3</p></div></article>
+    <article class="step"><div class="text-box"><p>P4</p></div></article>
+    <article class="step"><div class="text-box"><p>P5</p></div></article>
+    <article class="step"><div class="text-box"><p>P6</p></div></article>
   </div>
-
-  <div class="text-box">Paragraph 8</div>
-  <div class="text-box">Paragraph 9</div>
-  <div class="text-box">Paragraph 10</div>
-
-  <!-- CHOROPLETH -->
-  <div class="map-section">
-    <img src="map.png" alt="Choropleth map">
-  </div>
-
-  <div class="text-box">Paragraph 11</div>
-  <div class="text-box">Dorchester County section</div>
-  <div class="text-box">More on Dorchester</div>
-  <div class="text-box">Advocate opinion</div>
 
 </section>
 
-<script src="script.js"></script>
+<!-- GRAPH 2 SECTION -->
+<section class="graphic-section">
+
+  <div class="graphic">
+    <img src="linegraph2.png" class="img-fluid">
+  </div>
+
+  <div class="scrolly">
+    <article class="step"><div class="text-box"><p>P7</p></div></article>
+  </div>
+
+</section>
+
+<!-- MORE TEXT -->
+<section class="content">
+  <div class="scrolly">
+    <article class="step"><div class="text-box"><p>P8</p></div></article>
+    <article class="step"><div class="text-box"><p>P9</p></div></article>
+    <article class="step"><div class="text-box"><p>P10</p></div></article>
+  </div>
+</section>
+
+<!-- CHOROPLETH -->
+<section class="container my-5">
+  <div class="row g-3 justify-content-center">
+    <div class="col-md-6">
+      <img src="map1.png" class="img-fluid rounded">
+    </div>
+    <div class="col-md-6">
+      <img src="map2.png" class="img-fluid rounded">
+    </div>
+  </div>
+</section>
+
+<!-- FINAL TEXT -->
+<section class="content">
+  <div class="scrolly">
+    <article class="step"><div class="text-box"><p>P11</p></div></article>
+    <article class="step"><div class="text-box"><p>Dorchester County</p></div></article>
+    <article class="step"><div class="text-box"><p>More Dorchester</p></div></article>
+    <article class="step"><div class="text-box"><p>Advocate opinion</p></div></article>
+  </div>
+</section>
+
+<!-- JS -->
+<script>
+/* STEP ACTIVATION */
+const steps = document.querySelectorAll(".step");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    entry.target.classList.toggle("active", entry.isIntersecting);
+  });
+}, { threshold: 0.5 });
+
+steps.forEach(step => observer.observe(step));
+
+/* GRAPH 1 OVERLAY CONTROL */
+const graphSection = document.querySelector(".graphic-section");
+const overlay = document.querySelector(".overlay");
+
+const graphObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      overlay.style.background = "rgba(50,50,50,0.5)";
+    } else {
+      overlay.style.background = "rgba(50,50,50,0)";
+    }
+  });
+}, { threshold: 0.6 });
+
+if (overlay) graphObserver.observe(graphSection);
+</script>
+
 </body>
 </html>
