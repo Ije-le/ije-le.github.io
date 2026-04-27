@@ -1,0 +1,101 @@
+/* RESET */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  scroll-behavior: smooth;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url('hero.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: white;
+}
+
+.headline {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/* MAIN CONTENT */
+.content {
+  background: black;
+  padding: 50px 0;
+}
+
+/* TEXT BOXES */
+.text-box {
+  background: #f5f5dc;
+  color: black;
+  width: 60%;
+  margin: 60px auto;
+  padding: 25px;
+  line-height: 1.6;
+  border-radius: 8px;
+}
+
+/* PULLQUOTE */
+.pullquote {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin: 120px auto;
+  width: 60%;
+  font-style: italic;
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+/* STICKY GRAPH */
+.sticky-graph {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticky-graph img {
+  max-width: 80%;
+  z-index: 1;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(50, 50, 50, 0);
+  width: 100%;
+  height: 100%;
+  transition: background 2s ease;
+}
+
+/* MAP */
+.map-section img {
+  width: 80%;
+  display: block;
+  margin: 100px auto;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
