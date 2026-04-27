@@ -9,7 +9,7 @@ body, html {
 /* HERO */
 .hero {
   height: 100vh;
-  background: red;
+  background: url('hero.jpg') no-repeat center center/cover;
   background-attachment: fixed;
   position: relative;
 }
