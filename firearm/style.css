@@ -1,91 +1,190 @@
-body, html {
-  margin: 0;
-  font-family: Georgia, serif;
+/* =========================
+   BASE RESET
+========================= */
+
+* {
+  box-sizing: border-box;
 }
 
-/* HERO */
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: black;
+  color: white;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
 .hero {
   height: 100vh;
-  background: url('hero.jpg') center/cover no-repeat;
+  background: url("hero.jpg") center/cover no-repeat;
   background-attachment: fixed;
   position: relative;
+  display: flex;
+  align-items: flex-end;
 }
 
 .hero-text {
   position: absolute;
-  bottom: 20%;
-  left: 10%;
+  bottom: 15%;
+  left: 8%;
   color: white;
+  max-width: 700px;
 }
 
-/* DARK BACKGROUND */
-.dark {
-  background: black;
-  padding: 60px 0;
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
 }
 
-/* STEP */
+.hero h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* =========================
+   SCROLL STEPS (CORE SYSTEM)
+========================= */
+
 .step {
   min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px 20px;
 }
 
 /* TEXT BOX */
 .box {
   background: #f5f5dc;
+  color: black;
   padding: 25px;
   max-width: 650px;
-  border-radius: 10px;
+  border-radius: 12px;
+  line-height: 1.6;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-/* SPEECH BUBBLE */
+/* =========================
+   SPEECH BUBBLE (QUOTE)
+========================= */
+
 .speech {
-  background: white;
-  padding: 20px;
-  border-radius: 15px;
   position: relative;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 16px;
   max-width: 500px;
+  line-height: 1.6;
 }
 
 .speech::after {
   content: "";
   position: absolute;
-  bottom: -15px;
+  bottom: -14px;
   left: 40px;
-  border: 15px solid transparent;
+  width: 0;
+  height: 0;
+  border: 14px solid transparent;
   border-top-color: white;
 }
 
-/* IMAGE SECTION */
+/* =========================
+   IMAGE BACKGROUND SECTION
+   ("250 people" moment)
+========================= */
+
 .image-section {
   position: relative;
   height: 200vh;
+  background: black;
 }
 
 .image-bg {
   position: sticky;
   top: 0;
   height: 100vh;
-  background: url('people.jpg') center/cover no-repeat;
+  background: url("people.jpg") center/cover no-repeat;
 }
 
-/* GRAPHS */
+/* =========================
+   GRAPH SECTIONS (IMAGES OR EMBEDS)
+========================= */
+
 .graph {
   background: black;
   padding: 80px 0;
   text-align: center;
 }
 
-/* EMBEDS */
+.graph img {
+  width: 75%;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+/* =========================
+   CHOROPLETH EMBEDS
+========================= */
+
 .embed-box {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111;
 }
 
 .embed-box iframe {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* =========================
+   BOOTSTRAP COMPATIBILITY FIXES
+========================= */
+
+.container {
+  max-width: 1100px;
+}
+
+/* prevent weird spacing conflicts */
+section {
+  display: block;
+}
+
+/* =========================
+   OPTIONAL: SMOOTH TEXT LOOK
+========================= */
+
+p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .box, .speech {
+    width: 90%;
+  }
+
+  .graph img {
+    width: 95%;
+  }
 }
