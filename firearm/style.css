@@ -35,7 +35,7 @@ body {
 #hero-img {
   position: absolute;
   inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80');
+  /*background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80');*/
   background-size: cover;
   background-position: center 40%;
   width: 100%;
@@ -84,7 +84,7 @@ body {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-weight: 900;
+  font-weight: 1200;
   font-size: clamp(2.6rem, 6vw, 5.2rem);
   line-height: 1.05;
   text-align: center;
