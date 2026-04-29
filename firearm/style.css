@@ -146,6 +146,7 @@ h1 {
 .para-wrap p.visible {
   opacity: 1;
   transform: translateY(0);
+  color: #f0ece3;
 }
 
 .para-wrap p.faded-out {
