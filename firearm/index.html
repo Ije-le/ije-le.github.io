@@ -1,105 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Story</title>
-
-  <!-- BOOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Weight of Distance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scrolly-article.css">
 </head>
 <body>
 
-<!-- HERO -->
-<header class="hero">
-  <div class="hero-text">
-    <h1>Headline here</h1>
-    <h2>Subtitle</h2>
-  </div>
-</header>
+<!-- SCROLL HINT -->
+<div id="scroll-hint">
+  <span>Scroll</span>
+  <div class="arrow"></div>
+</div>
 
-<!-- DARK SECTION -->
-<section class="dark">
+<!-- ═══ HERO (sticky image + scrolling hed) ═══ -->
+<section id="hero">
 
-  <div class="step"><div class="box"><p>On Wednesday, April 2, 2025, Montgomery County Department of Police dispatched officials to a building in Chevy Chase, where a married couple lay dead with gunshot wounds.</p></div></div>
-
-  <div class="step"><div class="box"><p>The police published a news release five days later saying officials found a gun and ammunition nearby, and the bodies had been transported to the chief medical examiner in Baltimore for autopsy.</p></div></div>
-
-  <!-- QUOTE -->
-  <div class="step">
-    <div class="speech">
-      <p>“The manner of death for Kate Simoni Fralin was determined to be a homicide,” the police noted in the release. “While the official cause and manner of death for William Scott Fralin are pending, his death is being investigated as a suicide.”</p>
-    </div>
+  <!-- sticky container: image lives here -->
+  <div id="hero-sticky">
+    <div id="hero-img"></div>
   </div>
 
-  <div class="step"><div class="box"><p>Shiera Goff, director of public information for the police department, told Capital News Service on Tuesday that the case is now closed and was ruled as a murder-suicide.</p></div></div>
-
-</section>
-
-<!-- IMAGE SECTION (250 PEOPLE) -->
-<section class="image-section">
-  <div class="image-bg"></div>
-
-  <div class="scroll-text">
-    <div class="step"><div class="box"><p>Like the Fralin couple, nearly 5400 people in Maryland have lost their lives to homicides and suicides involving firearms between 2018 and 2024, according to the Centers for Disease Control and Prevention.</p></div></div>
-    <div class="step"><div class="box"><p>Firearm-related suicides and homicides in the state spiked during COVID and stayed high throughout 2021. In 2022, the figures started to drop. But while homicides continued to decline, suicides resumed the climb in 2024.</p></div></div>
-    <div class="step"><div class="box"><p>Preliminary data from Maryland’s department of health shows that this trend persisted in 2025.</p></div></div>
+  <!-- headline block scrolls over the fixed image -->
+  <div id="hed-block">
+    <p class="hed-label">Investigation · Maryland</p>
+    <h1>The Weight of&nbsp;Distance</h1>
+    <p class="lede">How a generation of rural students fell through the cracks of a system designed, on paper, to catch them.</p>
+    <p class="byline">By Your Name &nbsp;·&nbsp; April 29, 2026</p>
   </div>
-</section>
-
-<!-- GRAPH 1 -->
-<section class="graph">
-  <img src="https://ije-le.github.io/firearm/maryland_map.png" class="img-fluid">
-</section>
-
-<div class="step dark"><div class="box"><p>It also reflects a nationwide pattern, where suicides are rising while homicides have fallen multiple years in a row.</p></div></div>
-
-<!-- GRAPH 2 -->
-<section class="graph">
-  <img src="https://ije-le.github.io/firearm/us_map.png" class="img-fluid">
-</section>
-
-<!-- FINAL TEXT -->
-<section class="dark">
-
-  <div class="step"><div class="box"><p>According to CDC data between 2018 and 2024, Maryland’s urban jurisdictions –Baltimore County, Prince George’s, Anne Arundel, Baltimore City, and Montgomery– had the top five counts of firearm-related homicides and suicides.</p></div></div>
-  <div class="step"><div class="box"><p>Baltimore city, Prince George’s and Baltimore county also had the highest homicide rates per 100,000 people.</p></div></div>
-  <div class="step"><div class="box"><p>Suicide rates were highest in rural jurisdictions where populations are typically smaller, with Garrett county topping the list at 12.9%, even though counts were far lower than urban areas.</p></div></div>
-  <div class="step"><div class="box"><p>The CDC suppressed rates for Kent county, as the number of people who died from firearm-related suicides and homicides were less than 20 between 2018 and 2024.</p></div></div>
 
 </section>
 
-<!-- CHOROPLETH (EMBEDS + BOOTSTRAP) -->
-<section class="container my-5">
-  <div class="row g-3">
+<!-- ═══ BODY ═══ -->
+<section id="body-section">
 
-    <div class="col-md-6">
-      <div class="embed-box">
-        <div class="flourish-embed flourish-chart" data-src="visualisation/28562265"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28562265/thumbnail" width="100%" alt="visualization" /></noscript></div>
-        <!--<iframe src="MAP1_URL"></iframe> -->
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="embed-box">
-        <div class="flourish-embed flourish-map" data-src="visualisation/28565142"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28565142/thumbnail" width="100%" alt="map visualization" /></noscript></div>
-        <!--<iframe src="MAP2_URL"></iframe> -->
-      </div>
-    </div>
-
+  <div class="para-wrap">
+    <p>On a Tuesday in March, Darnell Watkins drove 47 minutes to get to a school he had already left. He wasn't looking for a diploma. He was looking for a transcript — a single sheet of paper that would let him apply for a job at the county's new distribution center. The school's front office told him to come back Thursday. He couldn't. He worked Thursdays.</p>
   </div>
+
+  <div class="pullquote">
+    <blockquote>"We built systems for the average student in the average county. Out here, there is no average."</blockquote>
+  </div>
+
+  <div class="para-wrap">
+    <p>Across Maryland's five westernmost counties, a pattern has emerged in state discipline data that administrators have quietly acknowledged for years but rarely discussed publicly: students who are suspended once are dramatically more likely to disengage entirely. In Garrett County, that disengagement rate runs nearly 30 percentage points above the state median — a gap that has persisted, largely unchanged, through three consecutive governors' education reform packages.</p>
+  </div>
+
+  <div class="para-wrap">
+    <p>The data, obtained through a series of public records requests filed over nine months, spans six school years and covers every local education agency in the state. It shows not just who gets suspended, but what happens next — re-enrollment rates, credit accumulation, and eventual graduation or dropout. For students in rural LEAs, the trajectory after a first suspension is measurably and consistently worse than for their suburban counterparts, even after controlling for poverty rates and prior academic performance.</p>
+  </div>
+
+  <div class="para-wrap">
+    <p>State officials say the disparities reflect resource constraints that predate the current administration. "We can't staff a restorative practices coordinator in a district of eight hundred students the same way we do in a district of eighty thousand," said one senior official at the Maryland State Department of Education, who spoke on background because they were not authorized to comment on pending policy. "The math doesn't work."</p>
+  </div>
+
+  <div class="para-wrap">
+    <p>But advocates argue that the math has never been made to work — that rural students have been excluded from the political calculus that drives education reform in Annapolis, because they have no lobby, no organizing infrastructure, and no geographic proximity to the legislators who write the budgets. The result, they say, is a structural inequity that compounds quietly, year after year, until it shows up in a county's workforce data, its poverty statistics, its empty storefronts.</p>
+  </div>
+
+  <div class="para-wrap">
+    <p>Darnell eventually got his transcript. It took four visits and a call to a guidance counselor he'd had in ninth grade, who was now working half-time as a substitute. He got the job. Most of the other students whose records appear in these databases weren't so persistent — or so lucky.</p>
+  </div>
+
 </section>
 
-
-<!-- FINAL -->
-<section class="dark">
-  <div class="step"><div class="box"><p>While most rural counties ranked low in homicide rates, Dorchester county had the same rate as Baltimore county, recording 7.9 homicide deaths per 100,000 and sharing third place. The county also had the second highest suicide rate.</p></div></div>
-  <div class="step"><div class="box"><p>...</p></div></div>
-  <div class="step"><div class="box"><p>Maryland legislators created the Center for Firearm Violence Prevention and Intervention in 2024 to address/reduce [firearm violence] in the state.  While gun advocates acknowledge the government's efforts to address the situation, they say more news to be done.</p></div></div>
-  <div class="step"><div class="box"><p>...</p></div></div>
-</section>
-
+<script src="scrolly-article.js"></script>
 </body>
 </html>

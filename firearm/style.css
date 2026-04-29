@@ -1,192 +1,233 @@
-/* =========================
-   BASE RESET
-========================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-* {
-  box-sizing: border-box;
+:root {
+  --ink: #f0ece3;
+  --ink-dim: #9a9488;
+  --black: #000000;
+  --accent: #c8a96e;
+  --body-width: 680px;
 }
+
+html { scroll-behavior: auto; }
 
 body {
-  margin: 0;
-  font-family: Georgia, serif;
-  background: black;
-  color: white;
+  background: var(--black);
+  color: var(--ink);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 300;
+  overflow-x: hidden;
 }
 
-/* =========================
-   HERO SECTION
-========================= */
-
-.hero {
-  height: 100vh;
-  background: url("hero.jpg") center/cover no-repeat;
-  background-attachment: fixed;
+/* ─── HERO ──────────────────────────────────────────── */
+#hero {
   position: relative;
-  display: flex;
-  align-items: flex-end;
+  height: 300vh; /* scroll space for the sticky phase */
 }
 
-.hero-text {
-  position: absolute;
-  bottom: 15%;
-  left: 8%;
-  color: white;
-  max-width: 700px;
-}
-
-.hero h1 {
-  font-size: 4rem;
-  margin: 0;
-}
-
-.hero h2 {
-  font-size: 1.5rem;
-  margin-top: 10px;
-  opacity: 0.9;
-}
-
-/* =========================
-   SCROLL STEPS (CORE SYSTEM)
-========================= */
-
-.step {
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 20px;
-}
-
-/* TEXT BOX */
-.box {
-  background: #f5f5dc;
-  color: black;
-
-  width: 100%;
-  max-width: 700px;  
-  
-  padding: 25px;
-  border-radius: 12px;
-  line-height: 1.6;
-}
-
-/* =========================
-   SPEECH BUBBLE (QUOTE)
-========================= */
-
-.speech {
-  position: relative;
-  background: white;
-  color: black;
-  padding: 20px;
-  border-radius: 16px;
-  max-width: 500px;
-  line-height: 1.6;
-}
-
-.speech::after {
-  content: "";
-  position: absolute;
-  bottom: -14px;
-  left: 40px;
-  width: 0;
-  height: 0;
-  border: 14px solid transparent;
-  border-top-color: white;
-}
-
-/* =========================
-   IMAGE BACKGROUND SECTION
-   ("250 people" moment)
-========================= */
-
-.image-section {
-  position: relative;
-  height: 200vh;
-  background: black;
-}
-
-.image-bg {
+#hero-sticky {
   position: sticky;
   top: 0;
   height: 100vh;
-  background: url("people.jpg") center/cover no-repeat;
-}
-
-/* =========================
-   GRAPH SECTIONS (IMAGES OR EMBEDS)
-========================= */
-
-.graph {
-  background: black;
-  padding: 80px 0;
-  text-align: center;
-}
-
-.graph img {
-  width: 75%;
-  max-width: 900px;
-  border-radius: 8px;
-}
-
-/* =========================
-   CHOROPLETH EMBEDS
-========================= */
-
-.embed-box {
   width: 100%;
-  height: 75vh;
-  border-radius: 8px;
   overflow: hidden;
-  background: #111;
 }
 
-.embed-box iframe {
+#hero-img {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80');
+  background-size: cover;
+  background-position: center 40%;
   width: 100%;
   height: 100%;
-  border: none;
+  transition: opacity 0.05s linear;
 }
 
-/* =========================
-   BOOTSTRAP COMPATIBILITY FIXES
-========================= */
-
-.container {
-  max-width: 1100px;
+/* dark vignette always present */
+#hero-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.15) 0%,
+    rgba(0,0,0,0.05) 40%,
+    rgba(0,0,0,0.55) 80%,
+    rgba(0,0,0,0.85) 100%
+  );
 }
 
-/* prevent weird spacing conflicts */
-section {
-  display: block;
+/* ─── HEADLINE + LEDE ────────────────────────────────── */
+#hed-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 120vh;
+  padding-bottom: 8vh;
+  z-index: 10;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
-/* =========================
-   OPTIONAL: SMOOTH TEXT LOOK
-========================= */
-
-p {
-  margin: 0;
-  font-size: 1.05rem;
+.hed-label {
+  font-family: 'Source Serif 4', serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--accent);
 }
 
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: clamp(2.6rem, 6vw, 5.2rem);
+  line-height: 1.05;
+  text-align: center;
+  max-width: 720px;
+  padding: 0 1.5rem;
+  color: #fff;
+  text-shadow: 0 2px 40px rgba(0,0,0,0.8);
+}
 
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
+.lede {
+  font-family: 'Source Serif 4', serif;
+  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.65;
+  text-align: center;
+  max-width: 560px;
+  padding: 0 1.5rem;
+  color: rgba(240,236,227,0.88);
+  text-shadow: 0 1px 20px rgba(0,0,0,0.7);
+}
 
-  .hero h2 {
-    font-size: 1.2rem;
-  }
+.byline {
+  font-family: 'Source Serif 4', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+}
 
-  .box, .speech {
-    width: 90%;
-  }
+/* ─── BODY / PARAGRAPHS ──────────────────────────────── */
+#body-section {
+  position: relative;
+  z-index: 20;
+  background: var(--black);
+  padding: 0 1rem 12rem;
+}
 
-  .graph img {
-    width: 95%;
-  }
+.para-wrap {
+  max-width: var(--body-width);
+  margin: 0 auto;
+  padding: 12vh 0;
+}
+
+.para-wrap p {
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  line-height: 1.85;
+  color: var(--ink);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  will-change: opacity, transform;
+}
+
+.para-wrap p.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.para-wrap p.faded-out {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* drop-cap on first paragraph */
+.para-wrap:first-child p::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.2em;
+  font-weight: 900;
+  float: left;
+  line-height: 0.78;
+  margin: 0.08em 0.1em 0 0;
+  color: var(--accent);
+}
+
+/* thin rule between paras */
+.para-wrap + .para-wrap {
+  border-top: 1px solid rgba(200,169,110,0.12);
+}
+
+/* ─── PULLQUOTE ──────────────────────────────────────── */
+.pullquote {
+  max-width: var(--body-width);
+  margin: 0 auto;
+  padding: 10vh 1rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.pullquote.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.pullquote.faded-out {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.pullquote blockquote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  line-height: 1.4;
+  color: var(--accent);
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5rem;
+}
+
+/* ─── SCROLL HINT ────────────────────────────────────── */
+#scroll-hint {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 50;
+}
+
+#scroll-hint span {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(240,236,227,0.45);
+}
+
+#scroll-hint .arrow {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgba(200,169,110,0.6), transparent);
+  animation: drip 1.6s ease-in-out infinite;
+}
+
+@keyframes drip {
+  0%, 100% { transform: scaleY(1); opacity: 0.7; }
+  50% { transform: scaleY(0.5); opacity: 0.2; }
 }
