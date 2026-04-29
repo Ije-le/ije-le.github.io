@@ -8,7 +8,9 @@
   --body-width: 680px;
 }
 
-html { scroll-behavior: auto; }
+html { scroll-behavior: auto;
+  background: #000;
+}
 
 body {
   background: var(--black);
