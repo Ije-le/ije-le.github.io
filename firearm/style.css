@@ -130,6 +130,7 @@ h1 {
   max-width: var(--body-width);
   margin: 0 auto;
   padding: 12vh 0;
+  color: #f0ece3;
 }
 
 .para-wrap p {
