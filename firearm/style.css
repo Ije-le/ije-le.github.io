@@ -75,6 +75,13 @@ body {
   align-items: center;
   gap: 2rem;
 }
+.nav-head {
+    color: #fff
+}
+
+.nav-logo{
+    margin: 0 auto;
+}
 
 .hed-label {
   font-family: 'Source Serif 4', serif;
