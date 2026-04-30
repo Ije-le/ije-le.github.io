@@ -175,6 +175,11 @@ h1 {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* drop-cap on first paragraph */
 .para-wrap:first-child p::first-letter {
   font-family: 'Playfair Display', serif;
