@@ -304,9 +304,9 @@ h1 {
     font-size: 1.2rem;
   }
 
-  .graphic-break {
-    margin-left: 0;
-    width: 100%;
+  .graphic-break img {
+    height: auto;
+    object-fit: contain;
   }
 
 }
