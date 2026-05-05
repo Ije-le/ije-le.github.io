@@ -261,3 +261,52 @@ h1 {
   0%, 100% { transform: scaleY(1); opacity: 0.7; }
   50% { transform: scaleY(0.5); opacity: 0.2; }
 }
+
+@media (max-width: 768px) {
+
+  #hero {
+    height: 250vh;
+  }
+
+  #hed-block {
+    padding-top: 80vh;
+    padding-bottom: 4vh;
+    gap: 1.2rem;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 8vw, 3rem);
+    padding: 0 1rem;
+  }
+
+  .lede {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .byline {
+    font-size: 0.7rem;
+  }
+
+  .para-wrap {
+    padding: 8vh 1rem;
+  }
+
+  :root {
+    --body-width: 100%;
+  }
+
+  .pullquote {
+    padding: 6vh 1rem;
+  }
+
+  .pullquote blockquote {
+    font-size: 1.2rem;
+  }
+
+  .graphic-break {
+    margin-left: 0;
+    width: 100%;
+  }
+
+}
