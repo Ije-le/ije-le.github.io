@@ -34,7 +34,7 @@ function updateScrollHint() {
 }
 
 // ─── 3. PARAGRAPH REVEAL / FADE-OUT ───────────────────────
-const paraWraps = document.querySelectorAll('.para-wrap p, .pullquote');
+const paraWraps = document.querySelectorAll('.pullquote');
 
 function updateParas() {
   const vh = window.innerHeight;
