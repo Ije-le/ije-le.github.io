@@ -196,10 +196,6 @@ h1 {
   color: var(--accent);
 }
 
-/* thin rule between paras */
-.para-wrap + .para-wrap {
-  border-top: 1px solid rgba(200,169,110,0.12);
-}
 
 /* ─── PULLQUOTE ──────────────────────────────────────── */
 .pullquote {
