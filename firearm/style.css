@@ -165,6 +165,8 @@ h1 {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   background: #000;
+  display: flex;
+  justify-content: center;
 }
 
 .graphic-break img {
